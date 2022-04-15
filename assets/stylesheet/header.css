@@ -1,0 +1,41 @@
+header {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    background-color: var(--biru);
+    color: var(--putih);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+#header {
+    padding: 0;
+}
+
+.logo-header {
+    padding: 10px 25px;
+    float: left;
+    width: 30%;
+}
+
+.logo-header h1 {
+    float: left;
+}
+
+.logo-header img {
+    width: 30px;
+    height: auto;
+    float: left;
+    padding: 10px 0;
+}
+
+.menu-header {
+    padding: 10px 25px;
+    float: right;
+    display: flex;
+}
+
+.menu-header h3 {
+    padding: 0 10px;
+}
