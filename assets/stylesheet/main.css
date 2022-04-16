@@ -1,0 +1,15 @@
+main {
+    color: var(--hitam);
+}
+
+#main {
+    padding-top: 20px;
+}
+
+aside {
+    display: flex;
+    padding: 50px 25px 10px;
+    width: 30%;    
+    flex-direction: column;
+}
+
