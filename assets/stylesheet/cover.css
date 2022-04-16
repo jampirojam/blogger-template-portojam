@@ -1,0 +1,11 @@
+.cover-text {    
+    padding: 180px 25px 100px;
+    background-image: url(../images/COVER.jpg);
+    background-size: cover;
+}
+
+.cover-text h2 {
+    font-size: 4em;
+    -webkit-text-stroke: 3px white;
+    -webkit-text-fill-color: black;
+}
