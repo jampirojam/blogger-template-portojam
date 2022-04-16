@@ -1,9 +1,6 @@
 header {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 100%;
-    background-color: var(--biru);
-    color: var(--putih);
+    background-color: var(--abu);
+    color: var(--hitam);
     position: fixed;
     top: 0;
     z-index: 999;
@@ -33,9 +30,12 @@ header {
 .menu-header {
     padding: 10px 25px;
     float: right;
+}
+
+nav {    
     display: flex;
 }
 
-.menu-header h3 {
+nav h3 {
     padding: 0 10px;
 }
