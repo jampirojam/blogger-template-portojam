@@ -1,18 +1,31 @@
-#cover {    
+#cover {
     margin-top: -10px;
-    padding: 150px 0 300px; 
-    background-image: url('../images/COVER.jpg');
+    padding: 150px 0 300px;
+    background-image: url('../images/dumbledore.webp'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .cover-text {
     padding: 50px 20px;
-    text-align: center;
+    text-align: left;
 }
 
-.cover-text h2,
+.cover-text h2 {
+    margin: 0 !important;
+    color: var(--putih);
+    font-size: 75px;
+    font-weight: bolder;
+    padding-left: 25px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 .cover-text p {
     margin: 0 !important;
     color: var(--putih);
-    font-size: 30px;
+    font-size: 25px;
+    padding-left: 25px;
+    text-shadow: 2px 2px 4px #000000;
 }

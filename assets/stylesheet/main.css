@@ -11,5 +11,11 @@ aside {
     padding: 50px 25px 10px;
     width: 30%;    
     flex-direction: column;
+    position: sticky;
+    top: 20px;
+}
+
+section {
+    height: 10000px;
 }
 
