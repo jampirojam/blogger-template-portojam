@@ -4,18 +4,22 @@ main {
 
 #main {
     padding-top: 20px;
+    display: flex;
 }
 
 aside {
-    display: flex;
     padding: 50px 25px 10px;
-    width: 30%;    
-    flex-direction: column;
+    width: 20%;    
+    position: -webkit-sticky;
     position: sticky;
     top: 20px;
+    align-self: flex-start
 }
 
 section {
+    padding: 50px 25px 10px;
+    width: 80%;
     height: 10000px;
+    border-left: 2px solid #000000;    
 }
 
