@@ -1,5 +1,6 @@
 main {
     color: var(--hitam);
+    margin-top: 20px;
 }
 
 #main {
@@ -12,7 +13,7 @@ main {
 }
 
 aside {
-    padding: 50px 25px 10px;
+    padding: 75px 25px 10px;
     width: 20%;
     position: -webkit-sticky;
     position: sticky;
@@ -21,7 +22,7 @@ aside {
 }
 
 section {
-    padding: 50px 25px 10px;
+    padding: 75px 25px 10px;
     width: 80%;
     height: 10000px;
 }

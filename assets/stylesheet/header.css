@@ -4,6 +4,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 999;
+    border-radius: 0 0 10% 10%;
+    border-bottom: 2px solid #000;
 }
 
 #header {
