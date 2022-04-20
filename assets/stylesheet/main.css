@@ -7,19 +7,95 @@ main {
     display: flex;
 }
 
+#main h2 {
+    font-weight: bold;
+}
+
 aside {
     padding: 50px 25px 10px;
-    width: 20%;    
+    width: 20%;
     position: -webkit-sticky;
     position: sticky;
     top: 20px;
-    align-self: flex-start
+    align-self: flex-start;
 }
 
 section {
     padding: 50px 25px 10px;
     width: 80%;
     height: 10000px;
-    border-left: 2px solid #000000;    
 }
 
+.title {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.title::after {    
+    content: '';
+    border-bottom: 3px solid #000;
+    width: 25px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.project {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    padding: 10px;
+    width: 25%;
+    position: relative
+}
+
+.project-item img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.project-item h2 {
+    text-align: center;
+}
+
+.image-onclick {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project-item:hover img {
+    opacity: 0.3
+}
+
+.project-item:hover .image-onclick {
+    opacity: 1
+}
+
+.click-overflow {
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 1)
+}
