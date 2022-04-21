@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/stylesheet/main.css">
     <link rel="stylesheet" href="assets/stylesheet/cover.css">
     <link rel="stylesheet" href="assets/stylesheet/waves.css">
+    <link rel="stylesheet" href="assets/stylesheet/footer.css">
 </head>
 
 <body id="wrapper">
@@ -26,7 +27,8 @@
             </div>
         </div>
     </header>
-    <div class="container">
+    <div class="container" style="position: relative;">
+        <canvas id='canvas'></canvas>
         <div id="cover">
             <div class="cover-text">
                 <h2>Hello, Grindore!</h2>
@@ -71,6 +73,50 @@
             </section>
         </div>
     </main>
+    <div class="footer-logo">
+        <img src="assets/images/LOGO.png" />
+    </div>
+    <div class="waves-container">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,0,0,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,0,0,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,0,0,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(0,0,0)" />
+            </g>
+        </svg>
+    </div>
+    <footer class="container">
+        <div id="footer">
+            <div class="left-footer">
+                <div class="footer-name">M. Machrush Aliy Sirojjam Mushlich</div>
+                <div class="footer-sosmed">
+                    <a>Blogger</a>
+                    <a>Facebook</a>
+                    <a>GitHub</a>
+                    <a>Instagram</a>
+                    <a>LinkedIn</a>
+                    <a>Twitter</a>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div>Postal Address</div>
+                <a>Jl. Raya Cangkir, Wates 019/006
+                    <br />
+                    Driyorejo, Gresik
+                    <br />
+                    61177 - Indonesia
+                </a>
+                <a></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script/snow.js"></script>
 </body>
 
 </html>

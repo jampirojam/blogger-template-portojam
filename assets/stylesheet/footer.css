@@ -1,0 +1,37 @@
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+#footer {    
+    padding: 0;
+}
+
+.left-footer {
+    padding: 75px 25px 25px;
+}
+
+.footer-sosmed {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-sosmed a {
+    color: #fff !important;
+}
+
+.right-footer {
+    padding: 75px 25px 25px;
+}
+
+.footer-logo {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.footer-logo img {    
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}

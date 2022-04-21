@@ -3,7 +3,7 @@ header {
     color: var(--hitam);
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 100;
     border-radius: 0 0 10% 10%;
     border-bottom: 2px solid #000;
 }
