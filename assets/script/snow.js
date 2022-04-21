@@ -1,4 +1,4 @@
-var c = document.getElementById("canvas"),
+var c = document.getElementById("canvas-snow"),
   $ = c.getContext("2d");
 var w = (c.width = window.innerWidth),
   h = (c.height = window.innerHeight);
