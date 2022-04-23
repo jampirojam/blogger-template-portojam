@@ -3,17 +3,16 @@ footer {
     color: #fff;
 }
 
-#footer {    
+#footer {
     padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    z-index: 9;
 }
 
 .left-footer {
     padding: 75px 25px 25px;
-    width: 50%;
+    width: 30%;
 }
 
 .footer-name {
@@ -39,7 +38,7 @@ footer {
     padding: 20px 0;
     border-radius: 10px;
     margin-left: 5px;
-    z-index: 9;
+    position: relative;
 }
 
 .sosmed-icon {
@@ -65,11 +64,11 @@ footer {
 
 .footer-value a {
     color: #fff !important;
-    z-index: 99;
+    position: relative;
 }
 
 .canvas-hexagon {
-    z-index: 1;
+    z-index: 99;
 }
 
 .footer-logo {
@@ -78,8 +77,39 @@ footer {
     height: 100px;
 }
 
-.footer-logo img {    
+.footer-logo img {
     width: 100px;
     height: 100px;
     background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .footer-sosmed {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .footer-name::after {
+        display: none;
+    }
+
+    .footer-name {
+        padding: 0 !important;
+    }
+
+    .left-footer,
+    .right-footer {
+        width: 100%;
+        text-align: center;
+        padding: 25px 0 10px !important;
+    }
 }

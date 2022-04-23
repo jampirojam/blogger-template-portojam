@@ -4,7 +4,13 @@ var canvas = document.getElementById('canvas-hexagon'),
    ctx = canvas.getContext('2d');
 
 // console.log(typeof can_w);
-var BALL_NUM = 50
+var BALL_NUM = 0
+
+if (can_w < 480) {
+    BALL_NUM = 20
+} else {
+    BALL_NUM = 75
+}
 
 var ball = {
       x: 0,
@@ -16,9 +22,9 @@ var ball = {
       phase: 0
    },
    ball_color = {
-       r: 207,
+       r: 200,
        g: 255,
-       b: 4
+       b: 255
    },
    R = 2,
    balls = [],
@@ -41,8 +47,8 @@ var ball = {
 
 // Random speed
 function getRandomSpeed(pos){
-    var  min = 1,
-       max = 3;
+    var  min = -2,
+       max = 6;
     switch(pos){
         case 'top':
             return [randomNumFrom(min, max), randomNumFrom(0.1, max)];

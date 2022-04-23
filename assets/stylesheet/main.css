@@ -5,26 +5,28 @@ main {
 
 #main {
     padding-top: 20px;
-    display: flex;
 }
 
 #main h2 {
     font-weight: bold;
 }
 
-aside {
-    padding: 75px 25px 10px;
-    width: 20%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 20px;
-    align-self: flex-start;
-}
-
 section {
     padding: 75px 25px 10px;
-    width: 80%;
     height: 10000px;
+}
+
+.about {
+    text-align: center;
+    padding: 50px 10px;
+}
+
+.about h2 {
+    font-size: 50px;
+}
+
+.about h3 {
+    font-size: 25px;
 }
 
 .title {
