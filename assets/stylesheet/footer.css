@@ -80,12 +80,11 @@ footer {
 .footer-logo img {
     width: 100px;
     height: 100px;
-    background-color: #fff;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #footer {
-        padding: 0 !important;
+        padding: 0 0 75px !important;
         display: flex;
         flex-direction: column;
         font-size: 18px;
@@ -96,7 +95,6 @@ footer {
         align-items: center;
         align-content: center;
     }
-
 
     .footer-name::after {
         display: none;
@@ -111,5 +109,16 @@ footer {
         width: 100%;
         text-align: center;
         padding: 25px 0 10px !important;
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .footer-logo img {
+        width: 70px;
+        height: 70px;
     }
 }

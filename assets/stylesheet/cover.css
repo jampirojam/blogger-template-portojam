@@ -36,3 +36,21 @@ canvas {
     height: 100%;
     position: absolute;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .cover-text h2 {
+        margin: 0 !important;
+        color: var(--putih);
+        font-size: 50px;
+        font-weight: bolder;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .cover-text p {
+        margin: 0 !important;
+        color: var(--putih);
+        font-size: 18px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+}

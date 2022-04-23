@@ -49,7 +49,7 @@
 }
 
 /*Shrinking for mobile*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .waves-container {    
         margin: -40px auto 0;
     }
