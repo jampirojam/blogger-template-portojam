@@ -53,6 +53,7 @@ nav {
     stroke: #000;
     width: auto;
     height: 25px;
+    display: none;
 }
 
 .line-top {
@@ -95,6 +96,9 @@ nav {
         padding: 10px 5px;
     }
 
+    .line {
+        display: block;
+    }
 
     .line-top {
         display: block;
