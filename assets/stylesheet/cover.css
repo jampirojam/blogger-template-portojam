@@ -38,7 +38,25 @@ canvas {
     position: absolute;
 }
 
+
 @media screen and (max-width: 768px) {
+
+    #cover {
+        padding: 150px 0 200px;
+    }
+    
+    .cover-text h2 {
+        margin: 0 !important;
+        font-size: 50px;
+    }
+    
+    .cover-text p {
+        margin: 0 !important;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 620px) {
 
     #cover {
         padding: 350px 0 100px;
@@ -46,16 +64,28 @@ canvas {
     
     .cover-text h2 {
         margin: 0 !important;
-        color: var(--putih);
-        font-size: 50px;
-        font-weight: bolder;
-        text-shadow: 2px 2px 4px #000000;
+        font-size: 40px;
     }
     
     .cover-text p {
         margin: 0 !important;
-        color: var(--putih);
         font-size: 18px;
-        text-shadow: 2px 2px 4px #000000;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #cover {
+        padding: 250px 0 100px;
+    }
+    
+    .cover-text h2 {
+        margin: 0 !important;
+        font-size: 30px;
+    }
+    
+    .cover-text p {
+        margin: 0 !important;
+        font-size: 18px;
     }
 }
