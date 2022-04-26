@@ -86,11 +86,19 @@ a:visited {
 #wrapper {
     max-width: 1280px;
     margin: auto;
-    font-family: 'Montserrat';    
+    font-family: 'Montserrat';
 }
 
 .container {
     margin: 0 auto;
     max-width: 1280px;
     width: 100%;
+}
+
+.cls-1 {
+    fill: none;
+}
+
+.cls-2 {
+    fill: #303030;
 }

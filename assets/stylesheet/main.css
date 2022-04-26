@@ -49,10 +49,18 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 40px 0 0;
 }
 
-.course {
+
+#activity h2 {
+    font-size: 50px;
+    text-shadow: 4px 4px 8px #000000;
+    color: #fff;
+}
+
+.course,
+.hobby {
     text-align: center;
     padding: 50px 10px;
     display: flex;
@@ -61,29 +69,50 @@ section {
     align-items: center;
 }
 
-.list-course {
+.list-course,
+.hobby-list {
     text-align: center;
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
     align-content: space-between;
 }
 
-.course-item {
+.course-item,
+.hobby-item {
     width: 30%;
     padding: 5px 10px 25px;
+    margin-bottom: 20px;
 }
 
-.course-title {
+.course-title,
+.hobby-title {
     font-weight: bold;
+    min-height: 30px;
 }
 
 .course-content {
-    bottom: 0;
+    display: block;
+    min-height: 75px;
+    padding: 5px 5px 10px;
+    display: none;
+}
+
+.credential {
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.credential:hover {
+    background: #222;
+    color: #fff;
 }
 
 .title {
@@ -104,8 +133,11 @@ section {
 }
 
 .project {
-    width: 100%;
-    padding: 0 10px;
+    padding: 0 10px 50px;
+}
+
+.subtitle {
+    text-align: center;
 }
 
 .project-list {
@@ -172,7 +204,8 @@ section {
         height: auto;
     }
 
-    .about h2 {
+    .about h2,
+    #activity h2 {
         font-size: 35px;
         text-shadow: 4px 4px 8px #000000;
         color: #fff;
@@ -183,7 +216,8 @@ section {
         width: 100%;
     }
 
-    .course-item {
+    .course-item,
+    .hobby-item {
         width: 45%;
         padding: 5px;
     }
@@ -201,13 +235,13 @@ section {
         padding: 5px;
     }
     .project-item {
-        width: 50%;
+        width: 45%;
     }
 }
 
 
 @media screen and (max-width: 480px) {
     .project-item {
-        width: 100%;
+        width: 95%;
     }
 }

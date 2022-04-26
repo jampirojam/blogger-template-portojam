@@ -52,7 +52,7 @@ nav {
     fill: none;
     stroke: #000;
     width: auto;
-    height: 25px;
+    height: 30px;
     display: none;
 }
 
@@ -103,9 +103,10 @@ nav {
     .line-top {
         display: block;
         width: auto;
-        height: 25px;
+        height: 30px;
         fill: none;
-        stroke: #000;        
+        stroke: #000;
+        margin-left: 20px;        
     }
 
 }
