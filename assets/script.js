@@ -28,7 +28,13 @@ $(function() {
         event.stopImmediatePropagation();
         var texInputValue = $('#whatsapp').val();
         
-        texInputValue = texInputValue.replace(/\r\n|\r|\n/g,"<br/>")
+        texInputValue = texInputValue
+            .replace(/\r\n|\r|\n/g,"<br/>")
+            .replace(/b>>/g,"<b>")
+            .replace(/\*>/g,"</b>")
+            .replace(/i>>/g,"<i>")
+            .replace(/_>/g,"</i>");
+
         $('.whatsapp-preview').html(texInputValue);
     });
     
@@ -43,9 +49,11 @@ function getWhatsAppUrl() {
     var whatsAppText = document.getElementById('whatsapp').value;
  
     whatsAppText = whatsAppText
-        .replace(/\r\n|\r|\n/g,"2%0A")
-        .replaceAll(/<b>|<\/b>/g,"*")
-        .replaceAll(/<i>|<\/i>/g,"_");
+        .replace(/\r\n|\r|\n/g,"%0A")
+        .replaceAll('b>>',"*")
+        .replaceAll('*>',"*")
+        .replaceAll('i>>',"_")
+        .replaceAll('_>',"_");
 
     window.open('https://api.whatsapp.com/send?phone=628388886086&text=' + whatsAppText, '_blank');
 }
