@@ -127,8 +127,8 @@
   <meta content='100006264857808' property='fb:app_id'/>
   <meta content='https://www.facebook.com/100006264857808' property='article:author'/>
   <meta content='https://www.facebook.com/100006264857808' property='article:publisher'/>
-  <meta content='jampirojam' name='twitter:site'/>
-  <meta content='jampirojam' name='twitter:creator'/>
+  <meta content='ojam96' name='twitter:site'/>
+  <meta content='ojam96' name='twitter:creator'/>
 
   <!-- Theme Color -->
   <meta content='#6875ff' name='theme-color'/>
@@ -195,1657 +195,1164 @@
       }
     }
   </script>
-
-  <link href='https://fonts.googleapis.com' rel='preconnect'/>
-  <link crossorigin='crossorigin' href='https://fonts.gstatic.com' rel='preconnect'/>
-  <link href='https://fonts.googleapis.com/css2?family=Montserrat' rel='stylesheet'/>
-  <link href='https://fonts.googleapis.com/css2?family=Handlee' rel='stylesheet'/>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js'/>
   <b:skin><![CDATA[
     /*
   
-  @font-face {
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  
-  /* FONT DEFAULT */
-  h1 {
-      font-size: 20px
-  }
-  
-  h2 {
-      font-size: 18px;
-      font-weight: 400;
-  }
-  
-  h3 {
-      font-size: 16px;
-      font-weight: 400;
-  }
-  
-  h4 {
-      font-size: 14px;
-      font-weight: 400;
-  }
-  
-  h5 {
-      font-size: 12px;
-      font-weight: 400;
-  }
-  
-  h6 {
-      font-size: 10px;
-      font-weight: 400;
-  }
-  
-  a {
-      color: #000;
-  }
-  
-  a:hover {
-      color: #000;
-      text-decoration: none;
-  }
-  
-  a:link {
-      color: #000;
-      text-decoration: none;
-  }
-  
-  a:active {
-      color: #000;
-      text-decoration: none;
-  }
-  
-  a:visited {
-      color: #000;
-      text-decoration: none;
-  }
-  
-  .klikin {
-      -webkit-tap-highlight-color: transparent;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      cursor: pointer;
-  }
-  
-  .klikin:focus {
-      outline: none !important;
-  }
-  
-  #wrapper {
-      max-width: 1280px;
-      margin: auto;
-      font-family: 'Montserrat';
-  }
-  
-  .container {
-      margin: 0 auto;
-      max-width: 1280px;
-      width: 100%;
-  }
-  
-  .cls-1 {
-      fill: none;
-  }
-  
-  .cls-2 {
-      fill: #303030;
-  }
-
-  header {
-    background-color: #fff;
-    color: #000;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    border-radius: 0 0 10% 10%;
-    border-bottom: 2px solid #000;
-    bottom: initial;
+  /* DEFAULT TAG */
+body {
+    max-width: 1024px;
+    margin: auto;
+    font-family: monospace;
 }
 
-#header {
-    padding: 0;
+header {
+    background-color: white;
+    margin-top: -10px;
+    border: 1px;
+    height: 50px;
+    padding: 5vh 0;
+    text-align: center;
 }
 
-.logo-header {
-    padding: 10px 25px;
-    float: left;
-    width: 30%;
+section {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 0 10vh;
+}
+
+footer {
+    background-color: rgba(0,0,0,1);
+    height: 5vh;
+    padding: 5vh;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+h4 {
+    margin: 10px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0 !important;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.click-in {
     cursor: pointer;
 }
 
+.button {
+    background: white;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 10px; 
+}
+
+.break-point {
+    padding-bottom: 2em;
+}
+
+/* HEADER */
+#header {
+    border-bottom: 1px solid black;
+    border-radius: 0 0 50px 50px;
+    height: auto;
+    z-index: 100;
+}
+
+.logo-header {
+    float: left;
+    width: 100%;
+    margin-top: -10px;
+}
+
 .logo-header h1 {
+    font-size: 14px;
     float: left;
 }
 
 .logo-header img {
-    width: 30px;
-    height: auto;
+    height: 20px;
+    width: auto;
+    padding: 8px 0;
     float: left;
-    padding: 10px 0;
 }
 
-.menu-header {
-    padding: 10px 25px;
+.logo {
+    max-width: 35%;
+    text-align: left;
+    padding-left: 10vh;
+    float: left;
+}
+
+.navigation {
     float: right;
-}
-
-nav {
-    display: flex;
-}
-
-.list {
     display: flex;
     flex-direction: row;
     align-content: center;
     align-items: center;
-    padding: 0 5px;
 }
 
-.line {
-    fill: none;
-    stroke: #000;
-    width: auto;
-    height: 30px;
+.nav-menu {
+    display: flex;
+    padding-right: 10vh;
+}
+
+.nav-menu a {
+    padding: 0 1vh;
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
     display: none;
 }
 
-.line-top {
-    display: none;
-}
-
-.list h3 {
-    padding: 0 5px;
-}
-
-@media screen and (max-width: 768px) {
-    header {
-        background-color: #fff;
-        color: #000;
-        position: fixed;
-        bottom: 0;
-        top: initial;
-        z-index: 100;
-        border-radius: 10% 10% 0 0;
-        border-top: 2px solid #000;
-    }
-
-    .logo-header img {
-        width: 30px;
-        height: auto;
-        float: left;
-        padding: 10px 0;
-    }
-
-    .logo-header,
-    .menu-header {
-        padding: 5px 10px;
-    }
-
-    .list h3 {
-        display: none;
-    }
-
-    .list {
-        padding: 10px 5px;
-    }
-
-    .line {
-        display: block;
-    }
-
-    .line-top {
-        display: block;
-        width: auto;
-        height: 30px;
-        fill: none;
-        stroke: #000;
-        margin-left: 20px;        
-    }
-  }
-
-  main {
-    color: #000;
-    margin-top: 20px;
-}
-
-#main {
-    padding-top: 20px;
-}
-
-#main h2 {
-    font-weight: bold;
-}
-
-section {
-    padding: 75px 25px 10px;
-}
-
-#about {
-    text-align: center;
-    padding: 50px 10px;
+/* SECTION */
+.main {
+    height: 80vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-#about img {
-    width: 250px;
-    height: auto;
+.main a {
+    font-size: 25px;
+    font-weight: 700;
 }
 
-#about h2 {
-    font-size: 50px;
-    text-shadow: 4px 4px 8px #000000;
-    color: #fff;
-    margin-top: -35px;
+.main p {
+    font-size: 20px;
+    font-weight: 700;
 }
 
-#about h3 {
-    font-size: 18px;
-    width: 60%;
+.container {
+    padding-bottom: 1em;
 }
 
-.text-explore {
-    font-size: 18px;
-}
-
-#activity {
+.profile-button {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 40px 0 0;
-}
-
-
-#activity h2 {
-    font-size: 50px;
-    text-shadow: 4px 4px 8px #000000;
-    color: #fff;
-}
-
-.course,
-.hobby {
-    text-align: center;
-    padding: 50px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.list-course,
-.hobby-list {
-    text-align: center;
+    flex-direction: row;
     padding: 10px;
+}
+
+.show {
+    padding-bottom: 50px;
+}
+
+.show p {
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.about div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.about div a:not(:last-of-type)::after, .about div a:not(:first-of-type)::before {
+    content: ' ❘ ';
+}
+
+.section-list {
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
-    align-content: space-between;
+    margin-top: 10px;
 }
 
-.course-item,
-.hobby-item {
+.section-list a:nth-of-type(odd) {
+    width: 70%;
+}
+
+.section-list a:first-of-type {
+    font-weight: 700;
+}
+
+.section-list a:nth-of-type(even) {
     width: 30%;
-    padding: 5px 10px 25px;
-    margin-bottom: 20px;
 }
 
-.course-title,
-.hobby-title {
-    font-weight: bold;
-    min-height: 30px;
+.section-list a:nth-of-type(3) {
+    font-style: italic;
+    color: red;
 }
 
-.course-content {
-    display: block;
-    min-height: 75px;
-    padding: 5px 5px 10px;
+.section-list a:last-of-type {
+    padding-bottom: 10px;
+}
+
+.section-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.section-desc p {
+    font-style: italic;
+    padding-bottom: 2px;
+    display: inline-flex;
+}
+
+.section-desc p::before {
+    content: '• ';
+    padding-right: 15px;
+    display: inline-flex;
+}
+
+.section-note {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-note::before {
+    content: attr(target);
+    font-weight: 700;
+}
+
+.list-per-year {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.list-per-year p {
+    display: inline-flex;
+}
+
+.list-per-year p:nth-of-type(odd)::before {
+    content: '• ';
+    padding-right: 15px;
+    display: inline-flex;
+}
+
+.list-per-year p:nth-of-type(odd) {
+    width: 70%;
+}
+
+.list-per-year p:nth-of-type(even) {
+    width: 30%;
+}
+
+.data-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.data-list p {
+    display: inline-flex;
+}
+
+.data-list p::before {
+    content: '• ';
+    padding-right: 15px;
+    display: inline-flex;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+.socmed-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.whatsapp-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.whatsapp-wrapper div {
+    width: 45%; 
+    min-height: 20vh;
+    max-height: 50vh;
+}
+
+.whatsapp-preview-title {
+    font-weight: 700;
+    padding: 0 20px 0 0 !important;
+    font-style: italic;
+}
+
+#whatsapp {
+    width: 50%;
+    min-height: 20vh;
+    max-height: 50vh;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    width: 100% !important;
+}
+
+.whatsapp-preview {
+    padding: 10px 20px 10px 0 !important;
+    color: black;
+    line-height: 1 !important;
+    font-family: inherit;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.note-list {
+    font-size: 10px;
+}
+
+.note-list p {
+    padding: 0 !important;
+}
+
+.note-list p:not(:first-of-type)::before {
+    content: '- ';
+}
+
+.note-list p:first-of-type {
+    font-weight: 700;
+}
+
+.note-list p:last-of-type {
+    padding-bottom: 20px !important;
+}
+
+.socmed-icon {
     display: none;
+    width: 30px;
+    height: 30px;
 }
 
-.credential {
-    color: #000;
-    border-radius: 5px;
-    font-size: 14px;
-    padding: 5px;
-    border: 1px solid #000;
+.curriculum-vitae p {
+    line-height: normal !important;
+    padding: 0 !important;
 }
 
-.credential:hover {
-    background: #222;
-    color: #fff;
+.project-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.title {
-    margin: 0 auto;
+.project-intro {
     text-align: center;
     padding-bottom: 10px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.title::after {
-    content: '';
-    border-bottom: 3px solid #000;
-    width: 25px;
-    display: block;
-    margin: 0 auto;
-    padding: 5px 0;
-}
-
-.project {
-    padding: 0 10px 50px;
-}
-
-.subtitle {
-    text-align: center;
 }
 
 .project-list {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 288px;
+    height: 240px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
 }
 
-.project-item {
-    padding: 10px;
-    width: 25%;
-    position: relative
-}
-
-.project-item img {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    border-radius: 20px;
-}
-
-.project-item h3 {
-    text-align: center;
-    font-weight: bold;
-}
-
-.image-onclick {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.project-item:hover img {
-    opacity: 0.3
-}
-
-.project-item:hover .image-onclick {
-    opacity: 1
-}
-
-.click-overflow {
+.project-list h3 {
+    font-size: 12px;
     font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, .5);
-    color: rgba(255, 255, 255, 1)
 }
 
+.project {
+    position: relative;
+    margin: .5%;
+    text-align: center;
+}
+
+.project img, .overlay {
+    transition: .3s all;
+    border-radius: 3px;
+}
+
+.project img {
+    margin-bottom: -4px;
+    height: 192px;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    opacity: 0;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.overlay svg {
+    padding-top: 25%;
+}
+
+.project:hover > img {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.project:hover > .overlay {
+    opacity: .6;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+}
+
+.footer a {
+    padding: 0 1vh;
+}
+
+/* RESPONSIVE - 960 */
+@media screen and (max-width: 960px) {
+    .project-list {
+        width: calc(33% - 10px);
+        height: calc(225px - 2%);
+    }
+    
+    .project img {
+        height: calc(180px - 2%);
+    }
+
+    .overlay svg {
+        padding-top: 18%;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* RESPONSIVE - 800 */
+@media screen and (max-width: 800px) {
+    .overlay svg {
+        padding-top: 22%;
+    }
+}
+
+/* RESPONSIVE - 768 */
 @media screen and (max-width: 768px) {
-    #about {
-        padding: 10px;
-    }
-
-    #about img {
-        width: 150px;
+    header {
+        bottom: 0;
+        position: fixed;
+        margin-bottom: -10px;
+        border: 1px;
+        height: 40px;
+        padding: 3vh 0;
+        text-align: center;
+    }  
+    
+    #header {
+        border-top: 1px solid black;
+        border-radius: 50px 50px 0 0;
         height: auto;
-    }
-
-    #about h2,
-    #activity h2 {
-        font-size: 35px;
-        text-shadow: 4px 4px 8px #000000;
-        color: #fff;
-    }
-
-    #about h3 {
-        font-size: 18px;
         width: 100%;
     }
 
-    .course-item,
-    .hobby-item {
-        width: 45%;
-        padding: 5px;
+    .project-list {
+        width: calc(50% - 10px);
+        height: calc(265px - 2%);
+    }
+    
+    .project img {
+        height:  calc(212px - 2%);
     }
 
-
-    .project-item {
-        width: 30%;
-    }
-}
-
-
-@media screen and (max-width: 620px) {
-    .course-item {
-        width: 95%;
-        padding: 5px;
-    }
-    .project-item {
-        width: 45%;
+    .overlay svg {
+        padding-top: 21%;
     }
 }
 
+/* RESPONSIVE - 720 */
+@media screen and (max-width: 720px) {
+    section {
+        padding: 0 5vh;
+    }
 
+    .logo {
+        padding-left: 5vh;
+    }
+
+    .nav-menu {
+        padding-right: 5vh;
+    }
+
+    .socmed-icon {
+        display: block;
+    }
+
+    .socmed-text {
+        display: none;
+    }
+
+    .socmed-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* RESPONSIVE - 640 */
+@media screen and (max-width: 640px) {
+    .main a {
+        font-size: 20px;
+    }
+
+    .main p {
+        font-size: 15px;
+    }
+
+    .section-list a:nth-of-type(1) {
+        width: 100%;
+    }
+
+    .section-list a:nth-of-type(2) {
+        display: none;
+    }
+
+    .list-per-year p:nth-of-type(odd) {
+        width: 100%;
+    }
+
+    .list-per-year p:nth-of-type(even) {
+        display: none;
+    }
+
+    .project-list {
+        height: calc(225px - 2%);
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    
+    .project img {
+        height: calc(180px - 2%);
+    }
+
+    .overlay svg {
+        padding-top: 20%;
+    }
+
+    .whatsapp-wrapper {
+        flex-direction: column;
+    }
+
+    #whatsapp {
+        width: 100%;
+        margin-left: -1px;
+        min-height: 20vh;
+        max-height: 40vh;
+    }
+
+    .whatsapp-wrapper div {
+        width: 100%;
+        padding-bottom: 20px;
+        min-height: 20vh;
+        max-height: 40vh;
+    }
+}
+
+/* RESPONSIVE - 480 */
 @media screen and (max-width: 480px) {
-    .project-item {
-        width: 95%;
+    .main p {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    .show p {
+        line-height: 1.4;
+    }
+
+    .about h2 {
+        font-size: 1.2em;
+    }
+
+    .about div {
+        flex-direction: column;
+    }
+
+    .about div a:not(:last-of-type)::after, .about div a:not(:first-of-type)::before {
+        display: none;
+    }
+
+    .about div a {
+        padding-bottom: 5px;
+    }
+
+    .section-list {
+        flex-direction: column;
+    }
+
+    .section-list a:nth-of-type(even) {
+        width: 100%;
+    }
+    
+    .section-list a:not(:first-of-type)::before {
+        content: '- ';
+        color: black !important;
+    }
+
+    .project-list {
+        width: 100%;
+        height: calc(225px - 2%);
+    }
+    
+    .project img {
+        height: calc(180px - 2%);
+    }
+
+    .overlay svg {
+        padding-top: 20%;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .socmed-list {
+        width: 100%;
+        padding-top: 20px;
+        justify-content: flex-start;
+    }
+
+    .socmed-icon {
+        width: 20px;
+        height: 20px;
+        padding-right: 10px;
     }
 }
 
-header {
-  background-color: #fff;
-  color: #000;
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  border-radius: 0 0 10% 10%;
-  border-bottom: 2px solid #000;
-  bottom: initial;
+/* RESPONSIVE - 414 */
+@media screen and (max-width: 414px) {
+    .overlay svg {
+        padding-top: 19%;
+        width: 38px;
+        height: 38px;
+    }
 }
 
-#header {
-  padding: 0;
-}
-
-.logo-header {
-  padding: 10px 25px;
-  float: left;
-  width: 30%;
-  cursor: pointer;
-}
-
-.logo-header h1 {
-  float: left;
-}
-
-.logo-header img {
-  width: 30px;
-  height: auto;
-  float: left;
-  padding: 10px 0;
-}
-
-.menu-header {
-  padding: 10px 25px;
-  float: right;
-}
-
-nav {
-  display: flex;
-}
-
-.list {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  padding: 0 5px;
-}
-
-.line {
-  fill: none;
-  stroke: #000;
-  width: auto;
-  height: 30px;
-  display: none;
-}
-
-.line-top {
-  display: none;
-}
-
-.list h3 {
-  padding: 0 5px;
-}
-
-@media screen and (max-width: 768px) {
-  header {
-      background-color: #fff;
-      color: #000;
-      position: fixed;
-      bottom: 0;
-      top: initial;
-      z-index: 100;
-      border-radius: 10% 10% 0 0;
-      border-top: 2px solid #000;
-  }
-
-  .logo-header img {
-      width: 30px;
-      height: auto;
-      float: left;
-      padding: 10px 0;
-  }
-
-  .logo-header,
-  .menu-header {
-      padding: 5px 10px;
-  }
-
-  .list h3 {
-      display: none;
-  }
-
-  .list {
-      padding: 10px 5px;
-  }
-
-  .line {
-      display: block;
-  }
-
-  .line-top {
-      display: block;
-      width: auto;
-      height: 30px;
-      fill: none;
-      stroke: #000;
-      margin-left: 20px;        
-  }
-
-}
-footer {
-  background-color: #000;
-  color: #fff;
-}
-
-#footer {
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.left-footer {
-  padding: 75px 25px 25px;
-  width: 30%;
-}
-
-.footer-name {
-  padding-left: 5px;
-  font-size: 25px;
-}
-
-.footer-name::after {
-  content: '';
-  border-bottom: 3px solid #fff;
-  width: 50px;
-  display: block;
-  padding: 5px 0;
-}
-
-.footer-sosmed {
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-sosmed a {
-  color: #fff !important;
-  padding: 20px 0;
-  border-radius: 10px;
-  margin-left: 5px;
-  position: relative;
-}
-
-.sosmed-icon {
-  height: 30px;
-  width: 30px;
-}
-
-.right-footer {
-  padding: 75px 25px 25px;
-  text-align: right;
-  width: 50%;
-  position: relative;
-}
-
-.footer-title {
-  padding-right: 10px;
-  font-size: 20px;
-}
-
-.footer-value {
-  padding: 10px 10px 20px 0;
-}
-
-.footer-value a {
-  color: #fff !important;
-  position: relative;
-}
-
-.footer-bottom {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.canvas-hexagon {
-  z-index: 99;
-}
-
-.footer-logo {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-}
-
-.footer-logo img {
-  width: 100px;
-  height: 100px;
-}
-
-@media screen and (max-width: 768px) {
-  #footer {
-      padding: 0 0 75px !important;
-      display: flex;
-      flex-direction: column;
-      font-size: 18px;
-  }
-
-  .footer-sosmed {
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-  }
-
-  .footer-name::after {
-      display: none;
-  }
-
-  .footer-name {
-      padding: 0 !important;
-  }
-
-  .left-footer,
-  .right-footer {
-      width: 100%;
-      text-align: center;
-      padding: 75px 0 10px !important;
-  }
-
-  .footer-logo {
-      margin: 0 auto;
-      width: 70px;
-      height: 70px;
-  }
-  
-  .footer-logo img {
-      width: 70px;
-      height: 70px;
-  }
-}
-
-
+/* RESPONSIVE - 320 */
 @media screen and (max-width: 320px) {
-  .left-footer,
-  .right-footer {
-      padding: 25px 0 10px !important;
-  }
-}
-#cover {
-  margin-top: -10px;
-  padding: 180px 0 300px;
-  background-image: url('https://raw.githubusercontent.com/jampirojam/PortfolioBlogger/master/assets/images/dumbledore.webp'); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  opacity: 0.5;
-  background-position: right;
+    .logo-header h1 {
+        display: none;
+    }
+
+    .overlay svg {
+        padding-top: 18%;
+        width: 35px;
+        height: 35px;
+    }
 }
 
-.cover-text {
-  padding: 50px 20px;
-  text-align: left;
-}
-
-.cover-text h2 {
-  margin: 0 !important;
-  color: #fff;
-  font-size: 75px;
-  font-weight: bolder;
-  padding-left: 25px;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.cover-text p {
-  margin: 0 !important;
-  color: #fff;
-  font-size: 25px;
-  padding-left: 25px;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-canvas {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
-
-@media screen and (max-width: 768px) {
-
-  #cover {
-      padding: 280px 0 200px;
-  }
-  
-  .cover-text h2 {
-      margin: 0 !important;
-      font-size: 50px;
-  }
-  
-  .cover-text p {
-      margin: 0 !important;
-      font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 620px) {
-
-  #cover {
-      padding: 350px 0 130px;
-  }
-  
-  .cover-text h2 {
-      margin: 0 !important;
-      font-size: 40px;
-  }
-  
-  .cover-text p {
-      margin: 0 !important;
-      font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-
-  #cover {
-      padding: 350px 0 130px;
-  }
-  
-  .cover-text h2 {
-      margin: 0 !important;
-      font-size: 30px;
-  }
-  
-  .cover-text p {
-      margin: 0 !important;
-      font-size: 18px;
-  }
-}
-
-.waves-container {    
-  margin: -100px auto 0;
-  max-width: 1280px;
-  width: 100%;
-  z-index: 88;
-}
-
-.waves {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  margin-bottom: -7px;
-  min-height: 100px;
-  max-height: 150px;
-}
-
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
-}
-
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
-}
-
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-}
-
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
-}
-
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-}
-
-@keyframes move-forever {
-  0% {
-      transform: translate3d(-90px, 0, 0);
-  }
-
-  100% {
-      transform: translate3d(85px, 0, 0);
-  }
-}
-
-/*Shrinking for mobile*/
-@media screen and (max-width: 768px) {
-  .waves-container {    
-      margin: -40px auto 0;
-  }
-
-  .waves {
-      height: 40px;
-      min-height: 40px;
-  }
-}
-
-.pop-up {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 1000;
-}
-
-.pop-up:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.pop-up-content {
-  margin: 10px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 90%;
-  max-width: 900px;
-  position: relative;
-  transition: all 5s ease-in-out;
-  text-align: justify;
-}
-
-.header-pop-up {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
-  padding: 20px 0;
-  font-weight: bold;
-  font-size: 20px;
-text-align: left;
-}
-
-.content-pop-up {
-  padding-bottom: 10px;
-}
-
-.pop-up-content .content-pop-up {
-  overflow: auto;
-  max-height: 720px;
-  height: 480px;
-}
-
-.content-pop-up h3 {
-  font-weight: bold;
-}
-
-.content-pop-up ul {
-  padding-left: 20px !important;
-  padding-top: 0 !important;
-}
-
-body.pop-up-open {
-  overflow: hidden;
-}
-
-.separate {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.cv-name {
-  font-weight: bold;
-}
-
-.cv-name,
-.cv-area {
-  width: 70%;
-  text-align: left;
-}
-
-.cv-place,
-.cv-year {
-  width: 28%;
-  text-align: left;
-  padding-left: 5px;
-}
-
-.cv-digital {
-  padding: 5px;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.cv-digital:hover {
-  border: 1px solid #666;
-  background-color: #fff;
-  color: #000;
-}
-
-.hidden {
-  display: none;
-}
-
-@media screen and (max-width:680px) {
-  .cv-name,
-  .cv-area,
-  .cv-place,
-  .cv-year {
-      width: 100%;
-      padding-left: 0;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .pop-up-content .content-pop-up {
-      max-height: 480px;
-      height: 320px;
-  }
-}
-
-@media screen and (max-width:240px) {
-  .pop-up-content .content-pop-up {
-      max-height: 320px;
-      height: 240px;
-  }
-}
 	  //
   ]]></b:skin>
   &lt;!--
 </head>--&gt; &lt;/head&gt;
 
-<body id='wrapper'>
-	<b:section class='main klikin' id='main' showaddelement='yes'/>
-  <header class='container'>
-    <div id='header'>
-      <div class='logo-header klikin' onclick='window.location=&apos;#wrapper&apos;;'>
-        <h1>OJ(</h1>
-        <img alt='logo' src='https://raw.githubusercontent.com/jampirojam/PortfolioBlogger/master/assets/images/LOGO.png'/>
-        <h1>)M</h1>
-      </div>
-      <div class='menu-header'>
-        <nav>
-          <a class='list klikin' href='#about'>
-            <svg class='line' fill='none' viewBox='0 0 24 24'>
-              <g id='Iconly/Curved/Profile'>
-                <g id='Profile'>
-                  <path clip-rule='evenodd' d='M11.8445 21.6618C8.15273 21.6618 5 21.0873 5 18.7865C5 16.4858 8.13273 14.3618 11.8445 14.3618C15.5364 14.3618 18.6891 16.4652 18.6891 18.766C18.6891 21.0658 15.5564 21.6618 11.8445 21.6618Z' fill-rule='evenodd' id='Stroke 1' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                  <path clip-rule='evenodd' d='M11.8372 11.1735C14.26 11.1735 16.2236 9.2099 16.2236 6.78718C16.2236 4.36445 14.26 2.3999 11.8372 2.3999C9.41452 2.3999 7.44998 4.36445 7.44998 6.78718C7.4418 9.20172 9.3918 11.1654 11.8063 11.1735C11.8172 11.1735 11.8272 11.1735 11.8372 11.1735Z' fill-rule='evenodd' id='Stroke 3' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                </g>
-              </g>
-            </svg>
-
-            <h3>Profile</h3>
-          </a>
-
-          <a class='list klikin' href='#activity'>
-            <svg class='line' fill='none' viewBox='0 0 24 24'>
-              <g id='Iconly/Curved/Activity'>
-                <g id='Activity'>
-                  <path d='M6.91699 14.854L9.90999 10.965L13.324 13.645L16.253 9.86499' id='Stroke 1' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/>
-                  <path clip-rule='evenodd' d='M19.6671 2.3501C20.7291 2.3501 21.5891 3.2101 21.5891 4.2721C21.5891 5.3331 20.7291 6.1941 19.6671 6.1941C18.6051 6.1941 17.7451 5.3331 17.7451 4.2721C17.7451 3.2101 18.6051 2.3501 19.6671 2.3501Z' fill-rule='evenodd' id='Stroke 2' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                  <path d='M20.7555 9.26898C20.8885 10.164 20.9495 11.172 20.9495 12.303C20.9495 19.241 18.6375 21.553 11.6995 21.553C4.76246 21.553 2.44946 19.241 2.44946 12.303C2.44946 5.36598 4.76246 3.05298 11.6995 3.05298C12.8095 3.05298 13.8005 3.11198 14.6825 3.23998' id='Stroke 4' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                </g>
-              </g>
-            </svg>
-
-            <h3>Activity</h3>
-          </a>
-
-          <a class='list klikin' href='#footer'>
-            <svg class='line' viewBox='0 0 24 24'>
-              <path d='M17.2677 9.06113L13.0023 12.4954C12.1951 13.1283 11.0635 13.1283 10.2563 12.4954L5.95424 9.06113'>
-              </path>
-              <path d='M6.88787 3.5H16.3158C17.6752 3.51525 18.969 4.08993 19.896 5.0902C20.823 6.09048 21.3022 7.42903 21.222 8.79412V15.322C21.3022 16.6871 20.823 18.0256 19.896 19.0259C18.969 20.0262 17.6752 20.6009 16.3158 20.6161H6.88787C3.96796 20.6161 2 18.2407 2 15.322V8.79412C2 5.87545 3.96796 3.5 6.88787 3.5Z'>
-              </path>
-            </svg>
-            <h3>Contact</h3>
-          </a>
-
-          <a class='list klikin' href='#about-blog'>
-            <svg class='line' fill='none' viewBox='0 0 24 24'>
-              <g id='Iconly/Curved/Info Square'>
-                <g id='Info Square'>
-                  <path clip-rule='evenodd' d='M21.2502 12C21.2502 18.937 18.9372 21.25 12.0002 21.25C5.06324 21.25 2.75024 18.937 2.75024 12C2.75024 5.063 5.06324 2.75 12.0002 2.75C18.9372 2.75 21.2502 5.063 21.2502 12Z' fill-rule='evenodd' id='Stroke 1' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                  <path d='M12.0002 15.895V12' id='Stroke 3' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                  <path d='M12.0045 8.5H11.9955' id='Stroke 15' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                </g>
-              </g>
-            </svg>
-            <h3>About</h3>
-          </a>
-
-          <a class='list klikin' href='#wrapper'>
-            <svg class='line-top' fill='none' viewBox='0 0 24 24'>
-              <g id='Iconly/Curved/Arrow - Up Circle'>
-                <g id='Arrow - Up Circle'>
-                  <path clip-rule='evenodd' d='M21.2498 12C21.2498 5.063 18.9368 2.75 11.9998 2.75C5.06276 2.75 2.74976 5.063 2.74976 12C2.74976 18.937 5.06276 21.25 11.9998 21.25C18.9368 21.25 21.2498 18.937 21.2498 12Z' fill-rule='evenodd' id='Stroke 1' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                  <path d='M15.4714 13.4419C15.4714 13.4419 13.0794 9.95589 11.9994 9.95589C10.9194 9.95589 8.52944 13.4419 8.52944 13.4419' id='Stroke 3' stroke='#130F26' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
-                </g>
-              </g>
-            </svg>
-          </a>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <div class='container' style='position: relative;'>
-    <canvas id='canvas-snow'/>
-    <div id='cover'>
-      <div class='cover-text'>
-        <h2>Hello, Flock!</h2>
-        <p>Welcome to the Ojam World.</p>
-      </div>
-    </div>
-  </div>
-  <div class='waves-container'>
-    <svg class='waves' preserveAspectRatio='none' shape-rendering='auto' viewBox='0 24 150 28' xmlns:xlink='http://www.w3.org/1999/xlink'>
-      <defs>
-        <path d='M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z' id='gentle-wave'/>
-      </defs>
-      <g class='parallax'>
-        <use fill='rgba(255,255,255,0.7' x='48' xlink:href='#gentle-wave' y='0'/>
-        <use fill='rgba(255,255,255,0.5)' x='48' xlink:href='#gentle-wave' y='3'/>
-        <use fill='rgba(255,255,255,0.3)' x='48' xlink:href='#gentle-wave' y='5'/>
-        <use fill='rgb(255,255,255)' x='48' xlink:href='#gentle-wave' y='7'/>
-      </g>
-    </svg>
-  </div>
-  <main class='container'>
-    <div id='main'>
-      <section>
-        <div id='about'>
-          <img src='https://raw.githubusercontent.com/jampirojam/PortfolioBlogger/master/assets/images/about-cover.png'/>
-          <h2>
-            M. MACHRUSH ALIY SIROJJAM MUSHLICH
-          </h2>
-          <h3>Hello, Flock.
-            <br/>Just call me, Ojam. You&#39;ll know more about my background here, especially for professional
-            purposes by clicking the &quot;EXPLORE&quot; button.
-            <br/>
-            Thank you.
-          </h3>
-          <svg height='38' width='172.3'>
-            <path d='M 165 0 L 172 0 L 172 7 L 171 7 L 171 1 L 165 1 Z' fill='#222222'/>
-            <path d='M 0 31 L 0 38 L 7 38 L 7 37 L 1 37 L 1 31 Z' fill='#000000'/>
-            <a class='klikin' href='#curriculum-vitae'>
-              <path d='M   0  0 L   155  0 L   172  13 L   172  38 L   17  38 L   0  25 Z' fill='#111111'>
-              </path><text alignment-baseline='middle' class='text-explore' fill='#FFFFFF' text-anchor='middle' x='85' y='20'>EXPLORE</text>
+<body>
+  	<b:section id='undefined-main' showaddelement='yes'/>
+    <header id='header'>
+        <div class='logo'>
+            <a class='logo-header click-in'>
+                <h1>OJ(</h1>
+                <img alt='logo' src='./assets/img/ojam.png'/>
+                <h1>)M</h1>
             </a>
-          </svg>
         </div>
-        <div id='activity'>
-          <h2>ACTIVITIES</h2>
+        <div class='navigation'>
+            <nav class='nav-menu'>
+                <a class='blog' href='https://brojamz.blogspot.com' target='_blank'>
+                    <svg class='nav-icon' fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M16 2H8C4 2 2 4 2 8V21C2 21.55 2.45 22 3 22H16C20 22 22 20 22 16V8C22 4 20 2 16 2Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M12.91 7.83991L7.72004 13.0299C7.52004 13.2299 7.33004 13.6199 7.29004 13.8999L7.01004 15.8799C6.91004 16.5999 7.41004 17.0999 8.13004 16.9999L10.11 16.7199C10.39 16.6799 10.78 16.4899 10.98 16.2899L16.17 11.0999C17.06 10.2099 17.49 9.16991 16.17 7.84991C14.85 6.51991 13.81 6.93991 12.91 7.83991Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='1'/>
+                        <path d='M12.17 8.57983C12.61 10.1498 13.84 11.3898 15.42 11.8298' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='1'/>
+                    </svg>
+                    <p class='nav-text'>Blog</p>
+                </a>
+                <a class='show-menu click-in' target='profile'>
+                    <svg class='nav-icon' fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M12.1601 10.87C12.0601 10.86 11.9401 10.86 11.8301 10.87C9.45006 10.79 7.56006 8.84 7.56006 6.44C7.56006 3.99 9.54006 2 12.0001 2C14.4501 2 16.4401 3.99 16.4401 6.44C16.4301 8.84 14.5401 10.79 12.1601 10.87Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M7.15997 14.56C4.73997 16.18 4.73997 18.82 7.15997 20.43C9.90997 22.27 14.42 22.27 17.17 20.43C19.59 18.81 19.59 16.17 17.17 14.56C14.43 12.73 9.91997 12.73 7.15997 14.56Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                    </svg>
+                    <p class='nav-text'>Profile</p>
+                </a>
+                <a class='show-menu click-in' target='project'>
+                    <svg class='nav-icon' fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M18.63 7.1499C18.67 7.7599 18.62 8.4499 18.5 9.2199L17.77 13.9099C17.15 17.8199 15.34 19.1399 11.43 18.5299L6.73999 17.7899C5.38999 17.5799 4.34999 17.2199 3.58999 16.6799C2.13999 15.6699 1.71999 14.0099 2.11999 11.4499L2.85999 6.7599C3.47999 2.8499 5.28999 1.5299 9.19999 2.1399L13.89 2.8799C17.03 3.3699 18.5 4.6499 18.63 7.1499Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M20.5 13.4699L19 17.9799C17.75 21.7399 15.75 22.7399 11.99 21.4899L7.48003 19.9899C5.21003 19.2399 3.95003 18.1999 3.59003 16.6799C4.35003 17.2199 5.39003 17.5799 6.74003 17.7899L11.43 18.5299C15.34 19.1399 17.15 17.8199 17.77 13.9099L18.5 9.2199C18.62 8.4499 18.67 7.7599 18.63 7.1499C21.02 8.4199 21.54 10.3399 20.5 13.4699Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M8.24 8.98C9.20098 8.98 9.98 8.20098 9.98 7.24C9.98 6.27902 9.20098 5.5 8.24 5.5C7.27902 5.5 6.5 6.27902 6.5 7.24C6.5 8.20098 7.27902 8.98 8.24 8.98Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                    </svg>
+                    <p class='nav-text'>Project</p>
+                </a>
+                <a class='show-menu click-in' target='contact'>
+                    <svg class='nav-icon' fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M16.96 6.17004C18.96 7.56004 20.34 9.77004 20.62 12.32' stroke='#292D32' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M3.48999 12.37C3.74999 9.82997 5.10999 7.61997 7.08999 6.21997' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M8.19 20.9399C9.35 21.5299 10.67 21.8599 12.06 21.8599C13.4 21.8599 14.66 21.5599 15.79 21.0099' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M12.06 7.70001C13.5954 7.70001 14.84 6.45537 14.84 4.92001C14.84 3.38466 13.5954 2.14001 12.06 2.14001C10.5247 2.14001 9.28003 3.38466 9.28003 4.92001C9.28003 6.45537 10.5247 7.70001 12.06 7.70001Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M4.82999 19.92C6.36534 19.92 7.60999 18.6753 7.60999 17.14C7.60999 15.6046 6.36534 14.36 4.82999 14.36C3.29464 14.36 2.04999 15.6046 2.04999 17.14C2.04999 18.6753 3.29464 19.92 4.82999 19.92Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                        <path d='M19.17 19.92C20.7054 19.92 21.95 18.6753 21.95 17.14C21.95 15.6046 20.7054 14.36 19.17 14.36C17.6347 14.36 16.39 15.6046 16.39 17.14C16.39 18.6753 17.6347 19.92 19.17 19.92Z' stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1'/>
+                    </svg>
+                    <p class='nav-text'>Contact</p>
+                </a>
+            </nav>
         </div>
-        <div class='course'>
-          <div class='title'>TRAINING</div>
-          <div class='list-course'>
-            <div class='course-item'>
-              <div class='course-icon'><svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <title/>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g data-name='Data Analysis' id='Data_Analysis'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M49.1,10.44,47,10V9.68a3,3,0,0,0-3-3H32.78L21.85,4.14A3,3,0,0,0,18.23,6.4l-.06.27H16a3,3,0,0,0-3,3V29.06L8.64,48a3,3,0,0,0,2.26,3.61l2.1.49v.27a3,3,0,0,0,3,3H27.32l.11.05,10.72,2.48a3,3,0,0,0,3.62-2.26l.06-.27H44a3,3,0,0,0,3-3V32.94l4.36-18.89A3,3,0,0,0,49.1,10.44ZM13,50l-1.65-.39a1,1,0,0,1-.76-1.21L13,38ZM21.4,6.09l2.49.58H20.26A1,1,0,0,1,21.4,6.09ZM38.6,55.91l-2.48-.58h3.62A1,1,0,0,1,38.6,55.91ZM45,52.32a1,1,0,0,1-1,1H16a1,1,0,0,1-1-1V9.68a1,1,0,0,1,1-1H44a1,1,0,0,1,1,1ZM49.41,13.6,47,24.05V12l1.65.38A1,1,0,0,1,49.41,13.6Z'/>
-                        <path class='cls-2' d='M40,47.83H21V39.7a1,1,0,0,0-2,0v9.13a1,1,0,0,0,1,1H40a1,1,0,0,0,0-2Z'/>
-                        <path class='cls-2' d='M23.33,22.22a4.34,4.34,0,0,0,4.34-4.33A4.29,4.29,0,0,0,27,15.62l1.82-1.81a1,1,0,0,0-1.42-1.42l-4.08,4.08L21.05,14.2a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.41h0A4.28,4.28,0,0,0,19,17.89,4.33,4.33,0,0,0,23.33,22.22Zm-2.19-5.11,1.49,1.49a1,1,0,0,0,.7.29A1,1,0,0,0,24,18.6l1.49-1.49a2.56,2.56,0,0,1,.14.78,2.34,2.34,0,0,1-4.67,0A2.29,2.29,0,0,1,21.14,17.11Z'/>
-                        <path class='cls-2' d='M23.33,33.18A4.34,4.34,0,1,0,19,28.84,4.35,4.35,0,0,0,23.33,33.18Zm0-6.67A2.34,2.34,0,1,1,21,28.84,2.34,2.34,0,0,1,23.33,26.51Z'/>
-                        <path class='cls-2' d='M40,35.38H36.08a1,1,0,0,0,0,2h1.51L32,43,28.07,39a1,1,0,0,0-1.41,0l-3.58,3.59A1,1,0,1,0,24.49,44l2.88-2.88,3.92,3.93a1,1,0,0,0,1.42,0L39,38.8v1.5a1,1,0,0,0,2,0V36.38A1,1,0,0,0,40,35.38Z'/>
-                        <path class='cls-2' d='M31.33,27.84h4.29a1,1,0,0,0,0-2H31.33a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M31.33,31.85h8.23a1,1,0,0,0,0-2H31.33a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M31.33,16.89h4.29a1,1,0,0,0,0-2H31.33a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M31.33,20.89h8.23a1,1,0,0,0,0-2H31.33a1,1,0,0,0,0,2Z'/>
-                      </g>
-                    </g>
-                  </g>
+    </header>
+
+    <section>
+        <div class='main'>
+            <a>Hello, I&#39;m Ojam.</a>
+            <p/>
+        </div>
+        <div class='show' id='show-profile' style='display: none;'>
+            <h2>About Ojam</h2>
+            <p>
+                Hail hello...
+            </p>
+            <p>
+                My name is Ojam, Information Systems graduate who loves to write anything that I want to, and also likes to learn about various things interest me. Kinda weird ya! &#39;cause mostly that made me interest wasn&#39;t related with my main major study, hehehe. But..., it makes me happier than doing nothing, hahaha.</p>
+            <p>
+                I&#39;m sorry, laughing out to loud. Oke, I will continue, got a lot knowledge in various fields when I was studying is the key, even tho it just nothing now, but I believe it will something then. Oh yah, if you play &quot;AOV&quot; let&#39;s play together, hehehe.
+            </p>
+            <p>
+                That&#39;s my quick intro, for more information, just check my curriculum vitae, thank you.
+            </p>
+
+            <div class='profile-button'>
+                <svg height='38' width='172.3'>
+                    <path d='M 165 0 L 172 0 L 172 7 L 171 7 L 171 1 L 165 1 Z' fill='#000000'/>
+                    <path d='M 0 25 L 0 32 L 7 32 L 7 31 L 1 31 L 1 31 Z' fill='#000000'/>
+                    <a class='show-menu click-in' target='cv'>
+                        <path d='M   0  0 L   155  0 L   172  13 L   172  32 L   17  32 L   0  19 Z' fill='none' stroke='#000000' stroke-width='1'/>
+                        <text alignment-baseline='middle' class='text-explore' fill='#000000' text-anchor='middle' x='85' y='16'>
+                            Curriculum Vitae
+                        </text>
+                    </a>
                 </svg>
-              </div>
-              <div class='course-title'>
-                Scrum Master
-              </div>
-              <div class='course-content'>
-                Specialization in Scrum Framework
-              </div>
-              <a class='credential klikin' href='https://drive.google.com/file/d/1b-6wjLelyegI_31xbO6HSb6Qgc3qgpqL/' target='_blank'>
-                credentials
-              </a>
+            </div>
+        </div>
+
+        <div class='show' id='show-project' style='display: none;'>
+            <h2>Projects</h2>
+            <p class='project-intro'>Professional, not academic, career project lists.</p>
+            <div class='project-wrapper'>
+                <div class='project-list'>
+                    <h3>Operation Sharia Platform</h3>
+                    <a class='project click-in'>
+                        <img alt='' src='./assets/img/bfi.png'/>
+                        <div class='overlay'>
+                            <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
+                                <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
+                                </path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class='project-list'>
+                    <h3>Surveyor Sharia Platform</h3>
+                    <a class='project click-in'>
+                        <img alt='' src='./assets/img/bfi.png'/>
+                        <div class='overlay'>
+                            <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
+                                <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
+                                </path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class='project-list'>
+                    <h3>Operation Platform</h3>
+                    <a class='project click-in'>
+                        <img alt='' src='./assets/img/bfi.png'/>
+                        <div class='overlay'>
+                            <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
+                                <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
+                                </path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class='project-list'>
+                    <h3>Surveyor Platform</h3>
+                    <a class='project click-in'>
+                        <img alt='' src='./assets/img/bfi.png'/>
+                        <div class='overlay'>
+                            <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
+                                <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
+                                </path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
 
-            <div class='course-item'>
-              <div class='course-icon'><svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <title/>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Development'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <circle class='cls-2' cx='9.33' cy='15.74' r='1'/>
-                        <circle class='cls-2' cx='16' cy='15.74' r='1'/>
-                        <circle class='cls-2' cx='12.67' cy='15.74' r='1'/>
-                        <path class='cls-2' d='M20,30.25l3-3a1,1,0,1,0-1.42-1.42l-3.72,3.73a1,1,0,0,0,0,1.41l3.72,3.73a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.41Z'/>
-                        <path class='cls-2' d='M34.32,34.68a1,1,0,0,0,1.41,0L39.46,31a1,1,0,0,0,0-1.41l-3.73-3.73a1,1,0,0,0-1.41,1.42l3,3-3,3A1,1,0,0,0,34.32,34.68Z'/>
-                        <path class='cls-2' d='M31,26.15a1,1,0,0,0-1.37.37L25.94,33a1,1,0,1,0,1.73,1l3.73-6.45A1,1,0,0,0,31,26.15Z'/>
-                        <path class='cls-2' d='M55.86,40a.29.29,0,0,1-.27-.19,10.43,10.43,0,0,0-1.67-2.89.29.29,0,0,1,0-.33,2.3,2.3,0,0,0-.84-3.14L52.33,33V14.74a3,3,0,0,0-3-3H8a3,3,0,0,0-3,3V40.08a2.34,2.34,0,0,0,2.33,2.33H21l-1,3.7H18.67a4.33,4.33,0,0,0-4.21,3.33H12a1,1,0,0,0,0,2H37.47a2.12,2.12,0,0,0,.07.71,2.25,2.25,0,0,0,1.07,1.4l2.11,1.22a2.3,2.3,0,0,0,3.14-.85.31.31,0,0,1,.31-.14,9.74,9.74,0,0,0,3.32,0,.3.3,0,0,1,.31.15,2.3,2.3,0,0,0,2,1.14,2.27,2.27,0,0,0,1.15-.3l2.11-1.22a2.29,2.29,0,0,0,1.07-1.4,2.26,2.26,0,0,0-.23-1.74.3.3,0,0,1,0-.34,10.52,10.52,0,0,0,1.67-2.88.28.28,0,0,1,.27-.19,2.31,2.31,0,0,0,2.3-2.3V42.26A2.3,2.3,0,0,0,55.86,40ZM7,14.74a1,1,0,0,1,1-1H49.33a1,1,0,0,1,1,1v3H7Zm.33,25.67A.33.33,0,0,1,7,40.08V19.74H50.33V32A2.29,2.29,0,0,0,47.8,33h0a.29.29,0,0,1-.3.13,10.27,10.27,0,0,0-3.32,0,.28.28,0,0,1-.3-.13h0a2.29,2.29,0,0,0-3.14-.84l-2.11,1.22a2.24,2.24,0,0,0-1.07,1.39,2.32,2.32,0,0,0,.22,1.75.27.27,0,0,1,0,.33,10.43,10.43,0,0,0-1.67,2.89.29.29,0,0,1-.27.19,2.29,2.29,0,0,0-1.36.45ZM34,46.11H22l1-3.7H33.5V44.7A2.32,2.32,0,0,0,34,46.11Zm-15.32,2H36.48a11,11,0,0,0,.78,1.33H16.57A2.33,2.33,0,0,1,18.67,48.11ZM56.16,44.7a.3.3,0,0,1-.3.3,2.31,2.31,0,0,0-2.15,1.48,8.46,8.46,0,0,1-1.34,2.33,2.31,2.31,0,0,0-.21,2.6.26.26,0,0,1,0,.22.29.29,0,0,1-.14.19L49.94,53a.3.3,0,0,1-.41-.12,2.31,2.31,0,0,0-2.37-1.11,7.92,7.92,0,0,1-2.66,0,2.31,2.31,0,0,0-2.37,1.12.31.31,0,0,1-.41.11l-2.11-1.22a.29.29,0,0,1-.14-.19.26.26,0,0,1,0-.22,2.33,2.33,0,0,0-.21-2.6,8.35,8.35,0,0,1-1.35-2.33A2.28,2.28,0,0,0,35.8,45a.3.3,0,0,1-.3-.3V42.26a.29.29,0,0,1,.3-.3,2.3,2.3,0,0,0,2.14-1.48,8.21,8.21,0,0,1,1.35-2.33,2.33,2.33,0,0,0,.21-2.6.28.28,0,0,1,0-.23.26.26,0,0,1,.14-.18l2.11-1.22a.28.28,0,0,1,.15,0,.3.3,0,0,1,.25.14h0a2.32,2.32,0,0,0,2.37,1.12,7.92,7.92,0,0,1,2.66,0A2.33,2.33,0,0,0,49.53,34h0a.29.29,0,0,1,.4-.1l2.11,1.22a.26.26,0,0,1,.14.18.28.28,0,0,1,0,.23,2.3,2.3,0,0,0,.21,2.59,8.51,8.51,0,0,1,1.34,2.34A2.32,2.32,0,0,0,55.86,42a.29.29,0,0,1,.3.3Z'/>
-                        <path class='cls-2' d='M45.83,38.94a4.54,4.54,0,1,0,4.54,4.54A4.54,4.54,0,0,0,45.83,38.94Zm0,7.08a2.54,2.54,0,1,1,2.54-2.54A2.54,2.54,0,0,1,45.83,46Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='course-title'>
-                Full Stack Developer
-              </div>
-              <div class='course-content'>
-                Specialization in developing software, especially in websites; not about the client-side
-                only, this course also learns in server-side and databases.
-              </div>
-              <a class='credential klikin' href='https://drive.google.com/drive/folders/1kgPLRXzSINA0TVJHBCEtbKtcIM4kIq2W' target='_blank'>
-                credentials
-              </a>
+        </div>
+
+        <div class='show' id='show-contact' style='display: none;'>
+            <h2>Contact &amp; Social Media</h2>
+            <h3>Send Me WhatsApp Message!</h3>
+            <div class='whatsapp-wrapper'>
+                <textarea id='whatsapp' placeholder='Type your WhatsApp message here...'/>
+                <div>
+                    <p class='whatsapp-preview-title'>Preview:</p>
+                    <div class='scrollable'>
+                        <p class='whatsapp-preview'/>
+                    </div>
+                </div>
             </div>
-
-            <div class='course-item'>
-              <div class='course-icon'><svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <title/>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Award'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M55.05,52.25l-4.81-8.32a9.75,9.75,0,0,0-3-12.91V9.9a2.34,2.34,0,0,0-2.34-2.34H11.52A2.33,2.33,0,0,0,9.19,9.9V49.75a2.33,2.33,0,0,0,2.33,2.33H28.57l-.1.17a1,1,0,0,0,0,1.06,1,1,0,0,0,1,.44l3.11-.4,1.21,2.89a1,1,0,0,0,.86.61h.06a1,1,0,0,0,.87-.5L40,48.71a10.21,10.21,0,0,0,1.77.17,10.43,10.43,0,0,0,1.78-.17L48,56.35a1,1,0,0,0,.87.5h.06a1,1,0,0,0,.86-.61L51,53.35l3.11.4a1,1,0,0,0,1-1.5ZM11.52,50.08a.33.33,0,0,1-.33-.33V9.9a.34.34,0,0,1,.33-.34H44.88a.34.34,0,0,1,.34.34V30a9.52,9.52,0,0,0-2.73-.61V13.29a1,1,0,0,0-1-1H14.91a1,1,0,0,0-1,1V46.35a1,1,0,0,0,1,1H31.3l-1.58,2.73ZM32,39.11a9.74,9.74,0,0,0,1.28,4.82l-.83,1.42H15.91V14.29H40.49V29.44A9.78,9.78,0,0,0,32,39.11Zm2.84,14.5-.72-1.73a1,1,0,0,0-1-.6l-1.86.23,3.36-5.82A9.75,9.75,0,0,0,38,48.12ZM34,39.11a7.76,7.76,0,1,1,7.76,7.77A7.77,7.77,0,0,1,34,39.11ZM50.45,51.28a1,1,0,0,0-1.05.6l-.72,1.73-3.17-5.49A9.75,9.75,0,0,0,49,45.69l3.36,5.82Z'/>
-                        <path class='cls-2' d='M46.57,36.87,44.14,36l-1.59-2A1,1,0,0,0,41,34l-1.59,2L37,36.87a1,1,0,0,0-.61.63,1,1,0,0,0,.12.87l1.46,2.14L38,43.1a1,1,0,0,0,.41.78,1,1,0,0,0,.87.15l2.48-.73,2.49.73a.86.86,0,0,0,.28,0,1,1,0,0,0,.58-.19,1,1,0,0,0,.42-.78l.07-2.59,1.46-2.14a1,1,0,0,0,.13-.87A1,1,0,0,0,46.57,36.87Zm-2.78,2.76a1,1,0,0,0-.18.53l0,1.59L42,41.3a1,1,0,0,0-.56,0L40,41.75l-.05-1.59a1,1,0,0,0-.18-.53l-.89-1.32,1.49-.53a1.09,1.09,0,0,0,.46-.33l1-1.26,1,1.26a1.09,1.09,0,0,0,.46.33l1.49.53Z'/>
-                        <path class='cls-2' d='M32.71,17.3h-9a1,1,0,0,0,0,2h9a1,1,0,0,0,0-2Z'/>
-                        <path class='cls-2' d='M19.79,37.67H24.9a1,1,0,0,0,0-2H19.79a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M29,40.09H19.79a1,1,0,0,0,0,2H29a1,1,0,0,0,0-2Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='course-title'>
-                Foreign Language
-              </div>
-              <div class='course-content'>
-                This course is about how
-              </div>
-              <a class='credential klikin' href='https://drive.google.com/drive/folders/1LhhHewhChTPcnjMO4HFwbuB9SzWnfl8H' target='_blank'>
-                credentials
-              </a>
+            <div class='note-list'>
+                <p>Note:</p>
+                <p>Use &lt;b&gt;TEXT&lt;/b&gt; to make it bold</p>
+                <p>Use &lt;i&gt;TEXT&lt;/i&gt; to make it italic</p>
             </div>
+            <input class='button' id='whatsapp-button' onclick='getWhatsAppUrl()' type='button' value='Send'/>
+            <input class='button' id='reset-button' type='button' value='Reset'/>
+            <div class='break-point'/>
+            <h3>Let&#39;s Connect!</h3>
+            <div class='contact-wrapper'>
+                <div class='contact-list'>
+                    <a href='https://wa.me/628388886086' target='_blank'>
+                        +62 838 8886 086
+                    </a>
+                    <a href='mailto:jampirojam@gmail.com' target='_blank'>
+                        jampirojam@gmail.com
+                    </a>
+                </div>
+                <div class='socmed-list'>
+                    <a href='https://linkedin.com/in/jampirojam' target='_blank'>
+                        <svg class='socmed-icon' fill='#000000' version='1.1' viewBox='-143 145 512 512' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+                            <path d='M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z                             M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7                             c18.4,0,29.7,11.9,30.1,27.7C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4                             c-14.9,0-23.2,10-27,19.6c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6                             c35.5,0,63.3,23,63.3,72.4V508.1z'/>
+                        </svg>
+                        <p class='socmed-text'>LinkedIn</p>
+                    </a>
+                    <a href='https://github.com/jampirojam' target='_blank'>
+                        <svg class='socmed-icon' fill='#000000' version='1.1' viewBox='-143 145 512 512' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+                            <g>
+                                <path d='M177.1,398.4c-8.6-1.5-17.6-1.3-26.4-0.8c-20,1.1-40,3-60,1.2c-9.5-0.9-19.1-1.8-28.7-1.6c-17.4,0.3-32,6-40.6,22.6                                     c-4.3,8.2-5.3,17-5,26.1c0.7,25.6,11.8,40.2,36.2,47.5c19.6,5.8,39.7,6.6,59.9,6.2c7.5,0,15,0.4,22.5-0.1                                     c15.5-0.9,30.7-3.2,45.4-8.6c15.2-5.6,24.3-16.3,27.6-31.8c1.3-6,1.9-12.3,1.8-18.4C209.6,420,195.6,401.5,177.1,398.4z                                      M78.7,466.1c-6.5,7.1-15.9,7.2-22.6,0.3c-4.9-5-7.7-12.7-7.7-22.3c0.2-6.5,2.1-13.6,7.7-19.3c6.7-6.9,16.1-6.8,22.6,0.2                                     C88.5,435.6,88.5,455.5,78.7,466.1z M169.6,466.6c-6.1,6.3-14.9,6.5-21.4,0.7c-11.2-10.2-11.2-32.9,0-43.2                                     c6.4-5.9,15.2-5.7,21.4,0.6c5.7,5.8,7.6,13.1,7.9,20.9C177.2,453.5,175.2,460.7,169.6,466.6z'/>
+                                <path d='M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z                                      M244.2,423.4c-1.4,11.4-3.8,23.1-7.9,33.8c-12,30.7-36,47.6-67.8,52.7c-18.2,2.9-36.9,3-57.1,4.5c-18.1-1.6-38-1.8-57.3-5.2                                     c-37.4-6.6-62.8-32.8-70.2-70.3c-3.8-19.1-4.9-38.3,1-57.3c3.1-9.8,8.2-18.5,14.8-26.4c0.9-1,1.7-2.5,1.6-3.8                                     c-1.1-17.2,0.9-34.2,6-50.6c4.2-13.7,1.1-12.9,16.3-8.9c18.3,4.8,34.3,14.7,50,25c1.8,1.2,4.6,1.7,6.8,1.3                                     c22.2-3.4,44.3-3.6,66.5,0.3c1.6,0.3,3.7-0.3,5.2-1.2c13.5-8.8,27.4-16.7,42.6-22.2c5.5-2,11.3-3.3,16.9-5c2.5-0.7,3.6,0.2,4.5,2.6                                     c6.8,19,9.6,38.5,8.6,58.6c-0.1,1.1,0.5,2.6,1.2,3.5C243,374.6,247.3,398.2,244.2,423.4z'/>
+                            </g>
+                        </svg>
+                        <p class='socmed-text'>Github</p>
+                    </a>
+                    <a href='https://instagram.com/jampirojam' target='_blank'>
+                        <svg class='socmed-icon' fill='#000000' version='1.1' viewBox='-143 145 512 512' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+                            <g>
+                                <path d='M113,446c24.8,0,45.1-20.2,45.1-45.1c0-9.8-3.2-18.9-8.5-26.3c-8.2-11.3-21.5-18.8-36.5-18.8s-28.3,7.4-36.5,18.8                                     c-5.3,7.4-8.5,16.5-8.5,26.3C68,425.8,88.2,446,113,446z'/>
+                                <polygon points='211.4,345.9 211.4,308.1 211.4,302.5 205.8,302.5 168,302.6 168.2,346  '/>
+                                <path d='M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z                                      M241,374.7v104.8c0,27.3-22.2,49.5-49.5,49.5h-157C7.2,529-15,506.8-15,479.5V374.7v-52.3c0-27.3,22.2-49.5,49.5-49.5h157                                     c27.3,0,49.5,22.2,49.5,49.5V374.7z'/>
+                                <path d='M183,401c0,38.6-31.4,70-70,70c-38.6,0-70-31.4-70-70c0-9.3,1.9-18.2,5.2-26.3H10v104.8C10,493,21,504,34.5,504h157                                     c13.5,0,24.5-11,24.5-24.5V374.7h-38.2C181.2,382.8,183,391.7,183,401z'/>
+                            </g>
+                        </svg>
+                        <p class='socmed-text'>Instagram</p>
+                    </a>
+                    <a href='https://facebook.com/jampirojam' target='_blank'>
+                        <svg class='socmed-icon' fill='#000000' version='1.1' viewBox='-143 145 512 512' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+                            <path d='M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z                             M169.5,357.6l-2.9,38.3h-39.3v133H77.7v-133H51.2v-38.3h26.5v-25.7c0-11.3,0.3-28.8,8.5-39.7c8.7-11.5,20.6-19.3,41.1-19.3                             c33.4,0,47.4,4.8,47.4,4.8l-6.6,39.2c0,0-11-3.2-21.3-3.2c-10.3,0-19.5,3.7-19.5,14v29.9H169.5z'/>
+                        </svg>
+                        <p class='socmed-text'>Facebook</p>
+                    </a>
+                    <a href='https://twitter.com/ojam96' target='_blank'>
+                        <svg class='socmed-icon' fill='#000000' version='1.1' viewBox='-143 145 512 512' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+                            <path d='M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z                             M215.2,361.2c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7                             c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9                             C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5                             c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6                             c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z'/>
+                        </svg>
+                        <p class='socmed-text'>Twitter</p>
 
-            <div class='course-item'>
-              <div class='course-icon'><svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <title/>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Analysis'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M34,53.91H12.33a.32.32,0,0,1-.32-.33V31.68a8.48,8.48,0,0,0,2.62.72V51a1,1,0,0,0,1,1H27.89a1,1,0,0,0,0-2H16.59V32.4a8.83,8.83,0,0,0,5.74-14.52H43.45V31.31a1,1,0,0,0,2,0V16.9a1,1,0,0,0-1-1H20A8.73,8.73,0,0,0,12,15.55V11.66a.32.32,0,0,1,.32-.33H22.49V13a1,1,0,0,0,1,1h13.1a1,1,0,0,0,1-1V11.33H47.71a.32.32,0,0,1,.32.33V32.25a1,1,0,0,0,2,0V11.66a2.3,2.3,0,0,0-2.29-2.29H37.55V9a1,1,0,0,0-1-1H34.28v-1a3,3,0,0,0-3-2.95H28.71a3,3,0,0,0-2.95,3v1H23.47a1,1,0,0,0-1,1v.33H12.33A2.3,2.3,0,0,0,10,11.66v5.09a8.84,8.84,0,0,0,0,13.73v23.1a2.3,2.3,0,0,0,2.29,2.3H34a1,1,0,0,0,0-2ZM28.71,6.09h2.62a1,1,0,0,1,1,1v1H27.73v-1A1,1,0,0,1,28.71,6.09ZM24.45,10H35.59v2H24.45ZM8.73,23.62a6.88,6.88,0,1,1,6.9,6.87h0A6.89,6.89,0,0,1,8.73,23.62Z'/>
-                        <path class='cls-2' d='M45.3,35.79a10.23,10.23,0,0,0-4.19.92l-.2-.34A1,1,0,0,0,39.57,36a11.51,11.51,0,0,0-5.72,9.93,1,1,0,0,0,1,1h.37A10.15,10.15,0,1,0,45.3,35.79Zm-5.57,2.46L43.6,45H35.87A9.54,9.54,0,0,1,39.73,38.25ZM45.3,54.13a8.19,8.19,0,0,1-8.12-7.21H45.3a1,1,0,0,0,.85-1.47l-4.06-7A8.19,8.19,0,1,1,45.3,54.13Z'/>
-                        <path class='cls-2' d='M24.33,34.49a1,1,0,0,0-1.39,0L20,37.39a1,1,0,0,0,0,1.39.94.94,0,0,0,.69.29,1,1,0,0,0,.7-.29l2.2-2.2,2,2a1,1,0,0,0,1.39,0l3.77-3.78,1.72,1.72a1,1,0,0,0,1.39,0L40,30.47a1,1,0,0,0,0-1.39,1,1,0,0,0-1.39,0l-5.38,5.39-1.72-1.72a1,1,0,0,0-1.39,0l-3.78,3.78Z'/>
-                        <path class='cls-2' d='M12.93,24.56a2.59,2.59,0,0,0,2,.26l1.9-.51a.63.63,0,0,1,.5.07.59.59,0,0,1,.3.39.66.66,0,0,1-.46.81l-2.85.76a1,1,0,0,0,.26,1.93c.08,0,1.2-.29,1.2-.29l.09.32a1,1,0,0,0,.94.73.78.78,0,0,0,.26,0,1,1,0,0,0,.69-1.2l-.08-.32h0a2.62,2.62,0,1,0-1.36-5.06l-1.89.51a.67.67,0,0,1-.5-.06.69.69,0,0,1-.31-.4.66.66,0,0,1,.47-.8l2.84-.77a1,1,0,0,0,.7-1.2A1,1,0,0,0,16.4,19l-.94.26-.09-.32a1,1,0,0,0-1.9.51l.09.32h0a2.62,2.62,0,0,0-.63,4.8Z'/>
-                        <path class='cls-2' d='M39.33,21H27.54a1,1,0,1,0,0,2H39.33a1,1,0,1,0,0-2Z'/>
-                        <path class='cls-2' d='M39.33,24.27H32.12a1,1,0,0,0,0,2h7.21a1,1,0,0,0,0-2Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='course-title'>
-                Microsoft Office Specialist
-              </div>
-              <div class='course-content'>
-                This course is about how
-              </div>
-              <a class='credential klikin' href='https://drive.google.com/file/d/15o4jsuWfdqT0I8LqeZhOONKfYj446T8B/' target='_blank'>
-                credentials
-              </a>
+                    </a>
+                </div>
             </div>
+            <div class='break-point'/>
+        </div>
 
-            <div class='course-item'>
-              <div class='course-icon'><svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <title/>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Folder'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M46.27,32.49h-.05l1.92-21.88A2.34,2.34,0,0,0,46,8.08L18.55,5.68A2.35,2.35,0,0,0,16,7.8l-.25,2.91H13.55A2.33,2.33,0,0,0,11.22,13V50.43a2.33,2.33,0,0,0,2.33,2.33h4a2.53,2.53,0,0,0,2.33,1.57H46.27a2.52,2.52,0,0,0,2.51-2.51V35A2.52,2.52,0,0,0,46.27,32.49ZM18,8a.33.33,0,0,1,.36-.3l27.46,2.4a.33.33,0,0,1,.3.36L44.21,32.49h-.76V13a2.33,2.33,0,0,0-2.33-2.33H17.78Zm-.68,31.57V50.76H13.55a.33.33,0,0,1-.33-.33V13a.33.33,0,0,1,.33-.33H41.12a.33.33,0,0,1,.33.33V32.49H36.74a4,4,0,0,0-2.5.88l-4.05,3.22a2,2,0,0,1-1.26.44H19.85A2.51,2.51,0,0,0,17.34,39.54ZM46.78,51.82a.51.51,0,0,1-.51.51H19.85a.51.51,0,0,1-.51-.51V39.54a.51.51,0,0,1,.51-.51h9.08a4,4,0,0,0,2.51-.88l4-3.22a2.07,2.07,0,0,1,1.26-.44h9.53a.51.51,0,0,1,.51.51Z'/>
-                        <path class='cls-2' d='M43.64,48.27H39.87a1,1,0,0,0,0,2h3.77a1,1,0,0,0,0-2Z'/>
-                        <path class='cls-2' d='M24.7,18.12H30a1,1,0,0,0,0-2H24.7a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M19,23.79H35.64a1,1,0,0,0,0-2H19a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M36.64,27.83a1,1,0,0,0-1-1H19a1,1,0,0,0,0,2H35.64A1,1,0,0,0,36.64,27.83Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='course-title'>
-                Administering Database
-              </div>
-              <div class='course-content'>
-                This course is about how
-              </div>
-              <a class='credential klikin' href='https://drive.google.com/file/d/1EWyA4K5XppAkS5xj19vJe1z49VavDqFT/' target='_blank'>
-                credentials
-              </a>
+        <div class='show curriculum-vitae' id='show-cv' style='display: none;'>
+            <div class='about'>
+                <h2>M. MACHRUSH ALIY SIROJJAM MUSHLICH</h2>
+                <div>
+                    <a href='wa.me/628388886086' target='_blank'>+62 838 8886 086</a>
+                    <a href='mailto:jampirojam@gmail.com' target='_blank'>jampirojam@gmail.com</a>
+                </div>
             </div>
-
-
-            <div class='course-item'>
-              <div class='course-icon'><svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <title/>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Find'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M23.17,17.83h4.25a1,1,0,1,0,0-2H23.17a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M38.42,41.33H35.58a1,1,0,0,0,0,2h2.84a1,1,0,0,0,0-2Z'/>
-                        <path class='cls-2' d='M31.05,41.33H23.17a1,1,0,0,0,0,2h7.88a1,1,0,0,0,0-2Z'/>
-                        <path class='cls-2' d='M50.82,41.84l-2.49-2.48V12.51a3.79,3.79,0,0,0-3.79-3.79H20.17V6.33a1,1,0,0,0-1-1H15.56A3.81,3.81,0,0,0,11.67,9v38.5a3.79,3.79,0,0,0,3.79,3.79H44.54a3.79,3.79,0,0,0,3.79-3.79v-.61a3,3,0,0,0,2.49-5.09ZM13.67,9a1.81,1.81,0,0,1,1.89-1.71h2.61v36.5H15.56a4,4,0,0,0-1.89.47ZM44.54,49.33H15.46a1.75,1.75,0,1,1,.1-3.5h3.61a1,1,0,0,0,1-1V10.72H44.54a1.79,1.79,0,0,1,1.79,1.79V37.36l-1.17-1.17a1,1,0,0,0-1.42,0l-.7.7L41.45,35.3A11,11,0,1,0,24.1,21.83h-.93a1,1,0,0,0-1,1,1,1,0,0,0,.79,1,10.94,10.94,0,0,0,1.62,11.54H23.17a1,1,0,0,0,0,2h3.61A11,11,0,0,0,40,36.72l1.59,1.59-.7.71a1,1,0,0,0,0,1.41l5.41,5.42v1.69A1.79,1.79,0,0,1,44.54,49.33ZM24,28.27a9,9,0,1,1,9,9A9,9,0,0,1,24,28.27Zm25.4,16.4a1,1,0,0,1-1.41,0l-5-5,1.41-1.41,4.95,4.95A1,1,0,0,1,49.4,44.67Z'/>
-                        <path class='cls-2' d='M36,32.58a1,1,0,0,0-1-1H34V25.65h1.67V26a1,1,0,1,0,2,0v-1.3a1,1,0,0,0-1-1H29.33a1,1,0,0,0-1,1V26a1,1,0,1,0,2,0v-.3H32v5.93h-.95a1,1,0,1,0,0,2H35A1,1,0,0,0,36,32.58Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='course-title'>
-                Other Training
-              </div>
-              <div class='course-content'>
-                Another training I took that wasn&#39;t related to the five areas I&#39;ve already mentioned.
-              </div>
-              <a class='credential klikin' href='https://drive.google.com/drive/folders/1U5iJFJuYWT2MFkC6C8S9CLlcDQfBS_bs' target='_blank'>
-                credentials
-              </a>
+            <div class='summary container'>
+                <h3>Summary</h3>
+                <p>
+                    Highly skilled software development professional bringing enormous talents in face-paced
+                    environments. Team player who is willing to take on additional responsibility for meeting team
+                    goals to align with company business goals.
+                </p>
             </div>
-          </div>
-        </div>
-        <div class='hobby'>
-          <div class='title'>HOBBY</div>
-          <div class='hobby-list'>
-            <div class='hobby-item'>
-              <div class='hobby-icon'><svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Gambling'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M12.63,14.77a1,1,0,0,0-.91,1.08l.09,1.08a1,1,0,0,0,1,.91h.09a1,1,0,0,0,.91-1.09l-.1-1.07A1,1,0,0,0,12.63,14.77Z'/>
-                        <path class='cls-2' d='M51.23,34.21,48.82,31.8a12.45,12.45,0,0,0-8.58-20.64l.08-1.92A2.41,2.41,0,0,0,38,6.72L17.53,5.78A2.41,2.41,0,0,0,15,8.08L14.87,11l-4.67.41A2.41,2.41,0,0,0,8,14l3,33.85a2.43,2.43,0,0,0,2.62,2.2l13.82-1.21L32,53.45a2.65,2.65,0,0,0,1.18.68,2.61,2.61,0,0,0,1.36,0l12.24-3.28A2.61,2.61,0,0,0,48.63,49l3.28-12.23A2.66,2.66,0,0,0,51.23,34.21ZM47.42,30.4l-1.29-1.29a9,9,0,0,0,1.08-1.67l1.72.61A10.81,10.81,0,0,1,47.42,30.4ZM40,17a6.65,6.65,0,0,1,4.74,10.71l-2.44-2.44a2.65,2.65,0,0,0-2.54-.68l-.11,0Zm9.61,9.18-1.7-.61A9.14,9.14,0,0,0,48.09,23l1.78-.32A10.21,10.21,0,0,1,49.58,26.16Zm-.06-5.41-1.8.33a8.84,8.84,0,0,0-1.08-2.28L48,17.61A10.42,10.42,0,0,1,49.52,20.75Zm-5.63-6.63a10.65,10.65,0,0,1,2.86,2l-1.4,1.19a8.75,8.75,0,0,0-2.08-1.43ZM42,13.45l-.61,1.72A8.36,8.36,0,0,0,40.06,15l.08-1.8A10.29,10.29,0,0,1,42,13.45ZM17,8.17a.42.42,0,0,1,.44-.4l20.49,1a.41.41,0,0,1,.4.43l-.74,16-1,.27-1.2-13.76a2.43,2.43,0,0,0-2.62-2.2L16.88,10.84ZM13.41,48.09a.42.42,0,0,1-.45-.37L10,13.87a.42.42,0,0,1,.38-.45l22.57-2a.41.41,0,0,1,.44.38l1.24,14.12-3.34.89a5.77,5.77,0,0,0-.83-.88L23,19.7a1,1,0,0,0-1.41.12l-6.26,7.45a5.39,5.39,0,0,0,.41,7.43,5.28,5.28,0,0,0,4.59,1.22,5.75,5.75,0,0,1-1,1.35,1,1,0,0,0-.22,1.14A1,1,0,0,0,20,39h.09l3.09-.27L22.35,42A2.64,2.64,0,0,0,23,44.49L25.57,47ZM23.76,36.67l-1.63.14a6.49,6.49,0,0,0,.31-.59,1.72,1.72,0,0,0-.25-1.92,1.69,1.69,0,0,0-1.83-.47,3.25,3.25,0,0,1-3.28-.62,3.38,3.38,0,0,1-.2-4.65l5.61-6.69,6.61,5.55-1.61.43a2.63,2.63,0,0,0-1.86,1.86ZM46.7,48.47a.64.64,0,0,1-.45.45L34,52.2A.64.64,0,0,1,33.4,52l-8.95-9a.61.61,0,0,1-.17-.61l3.28-12.24a.64.64,0,0,1,.45-.45L40.24,26.5h0a.69.69,0,0,1,.32,0,.66.66,0,0,1,.29.17l9,9a.62.62,0,0,1,.17.61Z'/>
-                        <path class='cls-2' d='M37,37.78l-5.21-5.2A1,1,0,1,0,30.35,34l5.21,5.2a1.15,1.15,0,0,1,.29,1.09l-1.91,7.11a1,1,0,0,0,.71,1.23,1.09,1.09,0,0,0,.26,0,1,1,0,0,0,1-.74l1.91-7.11A3.12,3.12,0,0,0,37,37.78Z'/>
-                        <path class='cls-2' d='M46.39,36.87a1,1,0,0,0-1.22-.7L40.54,37.4a1,1,0,0,0-.7,1.23,1,1,0,0,0,1,.74,1.15,1.15,0,0,0,.26,0l4.62-1.24A1,1,0,0,0,46.39,36.87Z'/>
-                        <path class='cls-2' d='M30.46,44.89a2.53,2.53,0,0,0,.6,2.23c.52.53,1.1.38,1.29-.34a2.53,2.53,0,0,0-.6-2.23C31.23,44,30.65,44.18,30.46,44.89Z'/>
-                        <path class='cls-2' d='M29.73,37.62a2.53,2.53,0,0,0-.6-2.23c-.52-.52-1.1-.37-1.29.34a2.53,2.53,0,0,0,.6,2.23C29,38.49,29.54,38.34,29.73,37.62Z'/>
-                        <path class='cls-2' d='M31,42.2a2.53,2.53,0,0,0-.6-2.23c-.52-.52-1.1-.37-1.29.34a2.53,2.53,0,0,0,.6,2.23C30.27,43.07,30.85,42.92,31,42.2Z'/>
-                        <path class='cls-2' d='M40,33.27A.71.71,0,0,0,40.3,32a2.54,2.54,0,0,0-2.23-.6.7.7,0,0,0-.34,1.29A2.53,2.53,0,0,0,40,33.27Z'/>
-                        <path class='cls-2' d='M46,39.92a2.54,2.54,0,0,0-1.63,1.64c-.19.71.24,1.13,1,.94A2.55,2.55,0,0,0,47,40.86C47.18,40.15,46.75,39.73,46,39.92Z'/>
-                        <path class='cls-2' d='M39.18,46.55a2.55,2.55,0,0,0-1.63,1.63c-.19.71.24,1.13,1,.94a2.54,2.54,0,0,0,1.64-1.63C40.33,46.77,39.9,46.36,39.18,46.55Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='hobby-title'>
-                Gaming
-              </div>
+            <div class='education container'>
+                <h3>Education</h3>
+                <div class='section-list'>
+                    <a>Universitas Islam Negeri Sunan Ampel</a>
+                    <a>Surabaya, Indonesia</a>
+                    <a>Information System</a>
+                    <a>09/2015-08/2021</a>
+                    <div class='section-note' target='Thesis: '>Open-Source Forensic Applications Performance
+                        Analysis on Smartphone Android-Based in Collecting Digital Evidence</div>
+                </div>
+                <!-- <div class="section-list">
+                <a>Institut Teknologi Sepuluh Nopember</a>
+                <a>Surabaya, Indonesia</a>
+                <a>Informatic Engineering</a>
+                <a>Soon to be</a>
+            </div> -->
             </div>
-
-            <div class='hobby-item'>
-              <div class='hobby-icon'>
-                <svg height='60px' viewBox='0 0 60 60' width='60px'>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Challenge'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M56.67,49.88,46.89,36a19.31,19.31,0,1,0-33.9.18L3.33,49.88a1.63,1.63,0,0,0,1.34,2.58H55.33a1.63,1.63,0,0,0,1.34-2.58Zm-40-15.57,3.6,5.11-1.6,2.27-1.3-1.3a1,1,0,0,0-.69-.29h0a1,1,0,0,0-.69.29L13.36,43,11.7,41.37Zm18.58-15-.82,1.1a1,1,0,0,0,0,1.17l.82,1.1H30.87V19.3Zm-5.37,9.86,5.69,8.08-1.95,1.95-2.94-2.94a1,1,0,0,0-1.38,0L26.53,39l-2.11-2.11Zm-6.61,9.38,2.56,2.56a1,1,0,0,0,1.38,0L30,38.32l2.94,2.94a1,1,0,0,0,1.38,0l2.4-2.41,8.22,11.66H14.85Zm16.33,1,3.71-5.26,5,7.06L46.64,43,44,40.39a1,1,0,0,0-.69-.29h0a1,1,0,0,0-.69.29L41.2,41.82ZM12.53,26.85a17.36,17.36,0,1,1,33.09,7.34l-1-1.37a1.7,1.7,0,0,0-2.68,0l-3.56,5.05L31.23,27.67a1.45,1.45,0,0,0-.36-.34V24.62h6.34A1,1,0,0,0,38,23.06L36.43,21,38,18.91a1,1,0,0,0-.78-1.56H29.89a1,1,0,0,0-1,1v9a1.33,1.33,0,0,0-.37.34h0l-7.08,10L18,32.82a1.7,1.7,0,0,0-2.68,0l-1.09,1.54A17.37,17.37,0,0,1,12.53,26.85ZM10.57,43l2.1,2.1a1,1,0,0,0,1.38,0l2.64-2.63.85.85-4.63,6.57a1.65,1.65,0,0,0-.26.63H5.26Zm36.56,7.52a1.63,1.63,0,0,0-.25-.63l-4.54-6.44,1-1L46,45.09a1,1,0,0,0,1.38,0l2.1-2.1,5.31,7.52Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='hobby-title'>
-                Photograpy
-              </div>
+            <div class='work container'>
+                <h3>Experience</h3>
+                <div class='section-list'>
+                    <a>PT BFI Finance Indonesia Tbk</a>
+                    <a>South Tangerang, Indonesia</a>
+                    <a>Backend Engineer</a>
+                    <a>06/2022-Present</a>
+                    <div class='section-desc'>
+                        <p>Involved in design and development scalable micro-services based on evolving user
+                            requirements.</p>
+                        <P>Performed unit-tests to validate service free from bugs before actual tested and improve
+                            code coverage.</P>
+                        <p>Collaborated with cross-functional development in Agile environment to built robust
+                            system solution.</p>
+                        <p>Edited and proofread technical documents on changing systems for accuracy and
+                            consistency.</p>
+                    </div>
+                    <div class='section-note' target='Environment: '>Java, Spring Boot, Git, Camunda, RabbitMQ,
+                        PostgreSQL, Keycloak, Docker, Postman, DataDog, Sonarcloud</div>
+                </div>
+                <div class='section-list'>
+                    <a>PT Radio Merdeka Lokatama</a>
+                    <a>Surabaya, Indonesia</a>
+                    <a>IT Support (Intern)</a>
+                    <a>01/2020-02/2020</a>
+                    <div class='section-desc'>
+                        <p>Determined hardware, software, and network system issues using proactive troubleshooting
+                            techniques.</p>
+                        <p>Documented support interactions for future reference.</p>
+                        <p>Wrote announced ads, song switches, and breaking news segments for radio broadcasts.</p>
+                    </div>
+                </div>
             </div>
-
-            <div class='hobby-item'>
-              <div class='hobby-icon'>
-                <svg height='60px' viewBox='0 0 60 60' width='60px' xmlns='http://www.w3.org/2000/svg'>
-                  <g data-name='Layer 2' id='Layer_2'>
-                    <g id='Icons'>
-                      <g id='Comment'>
-                        <rect class='cls-1' height='60' width='60'/>
-                        <path class='cls-2' d='M15.43,24.47H28.8a1,1,0,0,0,0-2H15.43a1,1,0,0,0,0,2Z'/>
-                        <path class='cls-2' d='M15.43,31.26H28.8a1,1,0,0,0,0-2H15.43a1,1,0,1,0,0,2Z'/>
-                        <path class='cls-2' d='M56.37,20.94A5.85,5.85,0,0,0,55,13.47a4.61,4.61,0,0,0-8.36-3.76l-.69,1.18a1,1,0,0,0-1.22.42L42.93,14.4H8.21a2.71,2.71,0,0,0-2.7,2.7V43.42a2.71,2.71,0,0,0,2.7,2.7H22v4.3a1,1,0,0,0,.5.87,1,1,0,0,0,.5.13,1,1,0,0,0,.49-.13l9.18-5.17H47.26a2.7,2.7,0,0,0,2.7-2.7V24.05l4.21-7.29a1,1,0,0,0-.25-1.26l.1-.19a3.83,3.83,0,0,1,.62,4.63l-3.11,5.38a3.34,3.34,0,0,0,1.22,4.56,1,1,0,0,0,1-1.73,1.34,1.34,0,0,1-.49-1.83ZM48,43.42a.7.7,0,0,1-.7.7H32.44a1,1,0,0,0-.49.13L24,48.71V45.12a1,1,0,0,0-1-1H8.21a.71.71,0,0,1-.7-.7V17.1a.71.71,0,0,1,.7-.7H41.77l-8,13.79a1.07,1.07,0,0,0-.11.72l1.19,5.14H15.43a1,1,0,0,0,0,2H36.12l.13,0a1.23,1.23,0,0,0,.19,0l6.25-1.91a1,1,0,0,0,.57-.45L48,27.51ZM36.88,35.78l-.71-3.08,3.74,2.16Zm5.15-2-6-3.46L46,13.17l6,3.46ZM52.87,13.32l-.67,1.15-4.52-2.61.67-1.15a2.61,2.61,0,1,1,4.52,2.61Z'/>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <div class='hobby-title'>
-                Writing
-              </div>
+            <div class='organization container'>
+                <h3>Organization</h3>
+                <div class='section-list'>
+                    <a>Lembaga Pers Mahasiswa Riset</a>
+                    <a>Surabaya, Indonesia</a>
+                    <a>Editorial Head</a>
+                    <a>09/2017-09/2018</a>
+                    <div class='section-desc'>
+                        <p>Proofread, edited, and evaluated final copy to verify content aligned with established
+                            guidelines.</p>
+                        <p>Collaborated with other members to support planned activities to exceed team goals.</p>
+                    </div>
+                </div>
+                <div class='section-list'>
+                    <a>Himpunan Mahasiswa Prodi Sistem Informasi</a>
+                    <a>Surabaya, Indonesia</a>
+                    <a>Secretary</a>
+                    <a>06/2017-05/2018</a>
+                    <div class='section-desc'>
+                        <p>Provided document support for various projects and departments.</p>
+                        <p>Supported organization leaders by managing, scheduling, and organizing every planned
+                            activity.</p>
+                        <p>Built and maintained excellent relationships with internal and external organization.</p>
+                    </div>
+                </div>
+                <div class='section-list'>
+                    <a>Pergerakan Mahasiswa Islam Indonesia</a>
+                    <a>Surabaya, Indonesia</a>
+                    <a>Member</a>
+                    <a>12/2015-0/20</a>
+                    <div class='section-desc'>
+                        <p>Collaborated with other members to support planned activities to exceed team goals.</p>
+                        <p>Analyzed problems and worked with teams to develop solutions.</p>
+                        <p>Participated in weekly study meetings related current issues.</p>
+                    </div>
+                </div>
+                <div class='section-list'>
+                    <a>Remaja Masjid Jami Darun Najah</a>
+                    <a>Surabaya, Indonesia</a>
+                    <a>Secretary</a>
+                    <a>06/2017-05/2018</a>
+                    <div class='section-desc'>
+                        <p>Provided document support for various projects and departments.</p>
+                        <p>Supported organization leaders by managing, scheduling, and organizing every planned
+                            activity.</p>
+                        <p>Built and maintained excellent relationships with internal and external organization.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class='project'>
-          <div class='title'>PROJECT</div>
-          <h3 class='subtitle'>Projects shown here are archives outside of collage tasks.</h3>
-          <div class='project-list'>
-            <a class='project-item klikin' href='https://globalgamejam.org/2018/games/mumet-selalu' target='_blank'>
-              <img alt='image' class='lazy' src='https://raw.githubusercontent.com/jampirojam/PortfolioBlogger/master/assets/images/mumet-selalu.jpg'/>
-              <div class='image-onclick '>
-                <div class='click-overflow'>view</div>
-              </div>
-              <h3>Mumet Selalu</h3>
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <div class='footer-logo'>
-    <img src='https://raw.githubusercontent.com/jampirojam/PortfolioBlogger/master/assets/images/LOGO.png'/>
-  </div>
-  <div class='waves-container'>
-    <svg class='waves' preserveAspectRatio='none' shape-rendering='auto' viewBox='0 24 150 28' xmlns:xlink='http://www.w3.org/1999/xlink'>
-      <defs>
-        <path d='M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z' id='gentle-wave'/>
-      </defs>
-      <g class='parallax'>
-        <use fill='rgba(0,0,0,0.7' x='48' xlink:href='#gentle-wave' y='0'/>
-        <use fill='rgba(0,0,0,0.5)' x='48' xlink:href='#gentle-wave' y='3'/>
-        <use fill='rgba(0,0,0,0.3)' x='48' xlink:href='#gentle-wave' y='5'/>
-        <use fill='rgb(0,0,0)' x='48' xlink:href='#gentle-wave' y='7'/>
-      </g>
-    </svg>
-  </div>
-  <footer class='container' style='position: relative;'>
-    <canvas id='canvas-hexagon'/>
-    <div id='footer'>
-      <div class='left-footer'>
-        <div class='footer-name'>
-          M. Machrush Aliy Sirojjam Mushlich
-        </div>
-        <div class='footer-sosmed'>
-          <a href='https://brojamz.blogspot.com/' target='_blank'><svg class='sosmed-icon klikin' preserveAspectRatio='xMidYMid' version='1.1' viewBox='0 0 256 256'>
-              <g>
-                <path d='M29.2512483,254.992269 C24.4605836,253.72987 20.326784,251.872772 16.514167,249.27012 C13.2957355,247.073173 8.59173053,242.531138 6.802814,239.89363 C4.61795254,236.672279 2.10654517,231.155554 1.08302862,227.329645 C0.03908851,223.427024 0.0221687007,221.872919 0.00343641123,128.196289 C-0.0151875002,34.9926489 0.00600325967,32.9431837 1.02922748,28.937751 C4.64779928,14.7729615 15.8531636,3.99576227 30.3049881,0.780639226 C34.4602052,-0.143781505 220.080352,-0.305463349 224.562499,0.611457561 C236.696561,3.09366958 246.234854,10.3914949 251.754322,21.416131 C256.142378,30.1808498 255.750093,20.5358378 255.951063,124.60059 C256.078977,190.813162 255.961045,218.610568 255.539183,222.073771 C253.563052,238.279383 242.404507,250.848939 226.348194,254.95627 C222.240949,256.006816 220.812174,256.021816 127.560008,255.993245 C37.3963261,255.966103 32.765616,255.918961 29.2512483,254.992269 Z' fill='#F06A35'/>
-                <path d='M164.337866,206.474219 C175.80773,204.909633 184.795866,200.312441 193.227933,191.697899 C199.327842,185.465992 203.146242,178.72052 205.641627,169.768356 C206.678289,166.049387 206.765208,164.238657 206.955173,142.402681 C207.098546,125.922027 206.97891,118.203371 206.549733,116.254728 C205.927733,113.430294 204.16451,110.807389 202.152667,109.713771 C201.533575,109.377259 197.566948,108.948345 193.337934,108.760669 C186.251455,108.446145 185.458603,108.307947 183.221853,106.997113 C179.673862,104.917853 178.696734,102.672577 178.687035,96.5768183 C178.668489,84.9296717 173.821489,74.1165588 164.244523,64.3572983 C157.421749,57.4046228 149.810546,52.6985037 141.124078,50.0615188 C139.044551,49.4302228 134.388284,49.2153961 118.791832,49.0310903 C94.3196876,48.7419241 88.8876134,49.2435561 80.5564134,52.5619703 C65.1967931,58.6799152 54.1605904,71.5734121 50.1348639,88.1031899 C49.3787451,91.2078299 49.2319732,96.1835454 49.0533677,124.766159 C48.8296137,160.57413 49.0764361,165.832356 51.313879,172.928491 C53.1624806,178.791361 55.0276184,182.38405 58.8700262,187.483343 C66.1899266,197.197633 77.1601396,204.213455 88.1279903,206.194753 C93.3474363,207.137828 157.742824,207.373775 164.337866,206.474219 Z' fill='#FFFFFF'/>
-                <path d='M162.316789,150.44111 C166.550498,154.394091 165.657502,161.431901 160.555561,164.321487 L155.312791,165.174081 L124.374077,165.532063 C103.514303,165.726755 97.2464977,165.316319 95.9652267,164.807861 L95.9243514,164.790877 C93.4073759,163.694145 91.0634456,160.647545 90.6583554,157.946233 C90.2724795,155.373021 91.5656806,151.835385 93.5480066,150.041394 L93.9893528,149.657494 C95.9431759,148.052095 98.1913725,147.763727 116.623839,147.699423 L137.940545,147.676814 C159.489838,147.692932 159.678977,147.978136 162.316789,150.44111 Z M131.944233,92.089437 C135.229927,93.7493268 136.657629,96.0896219 136.657629,99.8156877 C136.657629,103.051503 135.417959,105.356378 132.663827,107.213649 L132.130301,107.555093 C130.7902,108.354136 129.475963,108.493893 119.088532,108.574748 L112.386196,108.613165 C104.077281,108.629973 97.681282,108.455884 96.6590456,108.174216 C90.7953069,106.557917 88.6043352,98.1450032 92.9140112,93.7939988 L93.315319,93.3958498 C95.6224196,91.161301 97.0897298,90.929913 110.606768,90.9090578 L120.792571,90.9172906 C129.400651,90.957227 130.088322,91.1520233 131.944233,92.089437 Z' fill='#F06A35'/>
-              </g>
-            </svg>
-          </a>
-          <a href='https://facebook.com/jampirojam' target='_blank'><svg class='sosmed-icon klikin' preserveAspectRatio='xMidYMid' version='1.1' viewBox='0 0 256 256'>
-              <g>
-                <path d='M241.871,256.001 C249.673,256.001 256,249.675 256,241.872 L256,14.129 C256,6.325 249.673,0 241.871,0 L14.129,0 C6.324,0 0,6.325 0,14.129 L0,241.872 C0,249.675 6.324,256.001 14.129,256.001 L241.871,256.001' fill='#395185'/>
-                <path d='M176.635,256.001 L176.635,156.864 L209.912,156.864 L214.894,118.229 L176.635,118.229 L176.635,93.561 C176.635,82.375 179.742,74.752 195.783,74.752 L216.242,74.743 L216.242,40.188 C212.702,39.717 200.558,38.665 186.43,38.665 C156.932,38.665 136.738,56.67 136.738,89.736 L136.738,118.229 L103.376,118.229 L103.376,156.864 L136.738,156.864 L136.738,256.001 L176.635,256.001' fill='#FFFFFF'/>
-              </g>
-            </svg>
-          </a>
-          <a href='https://github.com/jampirojam' target='_blank'><svg class='sosmed-icon klikin' preserveAspectRatio='xMidYMid' version='1.1' viewBox='0 -3 256 256'>
-              <g>
-                <path d='M128.00106,0 C57.3172926,0 0,57.3066942 0,128.00106 C0,184.555281 36.6761997,232.535542 87.534937,249.460899 C93.9320223,250.645779 96.280588,246.684165 96.280588,243.303333 C96.280588,240.251045 96.1618878,230.167899 96.106777,219.472176 C60.4967585,227.215235 52.9826207,204.369712 52.9826207,204.369712 C47.1599584,189.574598 38.770408,185.640538 38.770408,185.640538 C27.1568785,177.696113 39.6458206,177.859325 39.6458206,177.859325 C52.4993419,178.762293 59.267365,191.04987 59.267365,191.04987 C70.6837675,210.618423 89.2115753,204.961093 96.5158685,201.690482 C97.6647155,193.417512 100.981959,187.77078 104.642583,184.574357 C76.211799,181.33766 46.324819,170.362144 46.324819,121.315702 C46.324819,107.340889 51.3250588,95.9223682 59.5132437,86.9583937 C58.1842268,83.7344152 53.8029229,70.715562 60.7532354,53.0843636 C60.7532354,53.0843636 71.5019501,49.6441813 95.9626412,66.2049595 C106.172967,63.368876 117.123047,61.9465949 128.00106,61.8978432 C138.879073,61.9465949 149.837632,63.368876 160.067033,66.2049595 C184.49805,49.6441813 195.231926,53.0843636 195.231926,53.0843636 C202.199197,70.715562 197.815773,83.7344152 196.486756,86.9583937 C204.694018,95.9223682 209.660343,107.340889 209.660343,121.315702 C209.660343,170.478725 179.716133,181.303747 151.213281,184.472614 C155.80443,188.444828 159.895342,196.234518 159.895342,208.176593 C159.895342,225.303317 159.746968,239.087361 159.746968,243.303333 C159.746968,246.709601 162.05102,250.70089 168.53925,249.443941 C219.370432,232.499507 256,184.536204 256,128.00106 C256,57.3066942 198.691187,0 128.00106,0 Z M47.9405593,182.340212 C47.6586465,182.976105 46.6581745,183.166873 45.7467277,182.730227 C44.8183235,182.312656 44.2968914,181.445722 44.5978808,180.80771 C44.8734344,180.152739 45.876026,179.97045 46.8023103,180.409216 C47.7328342,180.826786 48.2627451,181.702199 47.9405593,182.340212 Z M54.2367892,187.958254 C53.6263318,188.524199 52.4329723,188.261363 51.6232682,187.366874 C50.7860088,186.474504 50.6291553,185.281144 51.2480912,184.70672 C51.8776254,184.140775 53.0349512,184.405731 53.8743302,185.298101 C54.7115892,186.201069 54.8748019,187.38595 54.2367892,187.958254 Z M58.5562413,195.146347 C57.7719732,195.691096 56.4895886,195.180261 55.6968417,194.042013 C54.9125733,192.903764 54.9125733,191.538713 55.713799,190.991845 C56.5086651,190.444977 57.7719732,190.936735 58.5753181,192.066505 C59.3574669,193.22383 59.3574669,194.58888 58.5562413,195.146347 Z M65.8613592,203.471174 C65.1597571,204.244846 63.6654083,204.03712 62.5716717,202.981538 C61.4524999,201.94927 61.1409122,200.484596 61.8446341,199.710926 C62.5547146,198.935137 64.0575422,199.15346 65.1597571,200.200564 C66.2704506,201.230712 66.6095936,202.705984 65.8613592,203.471174 Z M75.3025151,206.281542 C74.9930474,207.284134 73.553809,207.739857 72.1039724,207.313809 C70.6562556,206.875043 69.7087748,205.700761 70.0012857,204.687571 C70.302275,203.678621 71.7478721,203.20382 73.2083069,203.659543 C74.6539041,204.09619 75.6035048,205.261994 75.3025151,206.281542 Z M86.046947,207.473627 C86.0829806,208.529209 84.8535871,209.404622 83.3316829,209.4237 C81.8013,209.457614 80.563428,208.603398 80.5464708,207.564772 C80.5464708,206.498591 81.7483088,205.631657 83.2786917,205.606221 C84.8005962,205.576546 86.046947,206.424403 86.046947,207.473627 Z M96.6021471,207.069023 C96.7844366,208.099171 95.7267341,209.156872 94.215428,209.438785 C92.7295577,209.710099 91.3539086,209.074206 91.1652603,208.052538 C90.9808515,206.996955 92.0576306,205.939253 93.5413813,205.66582 C95.054807,205.402984 96.4092596,206.021919 96.6021471,207.069023 Z' fill='#fff'/>
-              </g>
-            </svg>
-          </a>
-          <a href='https://instagram.com/jampirojam' target='_blank'><svg class='sosmed-icon klikin' viewBox='0 0 3364.7 3364.7'>
-              <defs>
-                <radialGradient cx='217.76' cy='3290.99' gradientUnits='userSpaceOnUse' id='0' r='4271.92'>
-                  <stop offset='.09' stop-color='#fa8f21'/>
-                  <stop offset='.78' stop-color='#d82d7e'/>
-                </radialGradient>
-                <radialGradient cx='2330.61' cy='3182.95' gradientUnits='userSpaceOnUse' id='1' r='3759.33'>
-                  <stop offset='.64' stop-color='#8c3aaa' stop-opacity='0'/>
-                  <stop offset='1' stop-color='#8c3aaa'/>
-                </radialGradient>
-              </defs>
-              <path d='M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9' fill='url(#0)'/>
-              <path d='M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9' fill='url(#1)'/>
-              <path d='M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57' fill='#fff'/>
-            </svg>
-          </a>
-          <a href='https://linkedin.com/in/jampirojam' target='_blank'><svg class='sosmed-icon klikin' preserveAspectRatio='xMidYMid' version='1.1' viewBox='0 0 256 256'>
-              <g>
-                <path d='M218.123122,218.127392 L180.191928,218.127392 L180.191928,158.724263 C180.191928,144.559023 179.939053,126.323993 160.463756,126.323993 C140.707926,126.323993 137.685284,141.757585 137.685284,157.692986 L137.685284,218.123441 L99.7540894,218.123441 L99.7540894,95.9665207 L136.168036,95.9665207 L136.168036,112.660562 L136.677736,112.660562 C144.102746,99.9650027 157.908637,92.3824528 172.605689,92.9280076 C211.050535,92.9280076 218.138927,118.216023 218.138927,151.114151 L218.123122,218.127392 Z M56.9550587,79.2685282 C44.7981969,79.2707099 34.9413443,69.4171797 34.9391618,57.260052 C34.93698,45.1029244 44.7902948,35.2458562 56.9471566,35.2436736 C69.1040185,35.2414916 78.9608713,45.0950217 78.963054,57.2521493 C78.9641017,63.090208 76.6459976,68.6895714 72.5186979,72.8184433 C68.3913982,76.9473153 62.7929898,79.26748 56.9550587,79.2685282 M75.9206558,218.127392 L37.94995,218.127392 L37.94995,95.9665207 L75.9206558,95.9665207 L75.9206558,218.127392 Z M237.033403,0.0182577091 L18.8895249,0.0182577091 C8.57959469,-0.0980923971 0.124827038,8.16056231 -0.001,18.4706066 L-0.001,237.524091 C0.120519052,247.839103 8.57460631,256.105934 18.8895249,255.9977 L237.033403,255.9977 C247.368728,256.125818 255.855922,247.859464 255.999,237.524091 L255.999,18.4548016 C255.851624,8.12438979 247.363742,-0.133792868 237.033403,0.000790807055' fill='#0A66C2'/>
-              </g>
-            </svg>
-          </a>
-          <a href='https://twitter.com/jampirojam' target='_blank'><svg class='sosmed-icon klikin' preserveAspectRatio='xMidYMid' version='1.1' viewBox='0 -23.5 256 256'>
-              <g>
-                <path d='M256,25.4500259 C246.580841,29.6272672 236.458451,32.4504868 225.834156,33.7202333 C236.678503,27.2198053 245.00583,16.9269929 248.927437,4.66307685 C238.779765,10.6812633 227.539325,15.0523376 215.57599,17.408298 C205.994835,7.2006971 192.34506,0.822 177.239197,0.822 C148.232605,0.822 124.716076,24.3375931 124.716076,53.3423116 C124.716076,57.4586875 125.181462,61.4673784 126.076652,65.3112644 C82.4258385,63.1210453 43.7257252,42.211429 17.821398,10.4359288 C13.3005011,18.1929938 10.710443,27.2151234 10.710443,36.8402889 C10.710443,55.061526 19.9835254,71.1374907 34.0762135,80.5557137 C25.4660961,80.2832239 17.3681846,77.9207088 10.2862577,73.9869292 C10.2825122,74.2060448 10.2825122,74.4260967 10.2825122,74.647085 C10.2825122,100.094453 28.3867003,121.322443 52.413563,126.14673 C48.0059695,127.347184 43.3661509,127.988612 38.5755734,127.988612 C35.1914554,127.988612 31.9009766,127.659938 28.694773,127.046602 C35.3777973,147.913145 54.7742053,163.097665 77.7569918,163.52185 C59.7820257,177.607983 37.1354036,186.004604 12.5289147,186.004604 C8.28987161,186.004604 4.10888474,185.75646 0,185.271409 C23.2431033,200.173139 50.8507261,208.867532 80.5109185,208.867532 C177.116529,208.867532 229.943977,128.836982 229.943977,59.4326002 C229.943977,57.1552968 229.893412,54.8901664 229.792282,52.6381454 C240.053257,45.2331635 248.958338,35.9825545 256,25.4500259' fill='#55acee'/>
-              </g>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class='right-footer'>
-        <div class='footer-title'>Contact</div>
-        <div class='footer-value'>
-          <a class='klikin' href='https://wa.me/628975500905' target='_blank'>+62 897 5500 905</a>
-          <br/>
-          <a class='klikin' href='mailto:jampirojam@gmail.com' target='_blank'>jampirojam@gmail.com</a>
-        </div>
-        <div class='footer-title'>Postal Address</div>
-        <div class='footer-value'>
-          <a>Jl. Raya Cangkir - Driyorejo, Gresik
-            <br/>
-            61177 - Indonesia
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <div class='pop-up' id='about-blog'>
-    <div class='pop-up-content'>
-      <div class='header-pop-up'>
-        <a> About OJAM </a>
-        <a class='klikin' href='#'>X</a>
-      </div>
-      <hr/>
-      <div class='content-pop-up'>
-        OJAM is a personal blog that created for background check and also for portfolio
-        archives of M. Machrush Aliy Sirojjam Mushlich.<br/><br/>
-        <b>Build:</b>
-        <ul>
-          <li>Blogger Platform</li>
-          <li>Web Front-End Development Enginee (HTML5, CSS3, and JavaScript)</li>
-        </ul>
-        <b>Support:</b>
-        <ul>
-          <li>Responsive Web Design (RWD)</li>
-          <li>Progressive Web App (PWA)</li>
-        </ul>
-        <hr/>
-        <br/>
-        <b>Thank you:</b><br/>
-        <ul>
-          <li><a href='https://blogger.com'>Blogger</a></li>
-          <li><a href='https://svgrepo.com'>SVG Repo</a></li>
-          <li><a href='https://wizardingworld.com/'>Wizarding World</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class='pop-up' id='curriculum-vitae'>
-    <div class='pop-up-content'>
-      <div class='header-pop-up'>
-        <a> M. Machrush Aliy Sirojjam Mushlich </a>
-        <a class='klikin' href='#'>X</a>
-      </div>
-      <hr/>
-      <div class='content-pop-up'>
-        <div class='cv-profile'>
-          <ul>
-            <li>Gresik, Indonesia</li>
-            <li><a href='tel:628975500905'>+62 897 5500 905</a></li>
-            <li><a href='mailto:jampirojam@gmail.com'>jampirojam@gmail.com</a></li>
-          </ul>
-        </div>
-        <hr/>
-        <div class='cv-summary'>
-          <h3>SUMMARY</h3>
-          <p>Hello! My name is Ojam, sometimes called Machrush; Information Systems graduate with a concentration in
-            Information System Management which focuses on planning to control and also Information Technology audits
-            based on business needs; looking for opportunities in the area of IT and Business, but open to any
-            opportunities to learn something new. Thank you.</p>
-        </div>
-        <hr/>
-        <div class='cv-skill'>
-          <h3>SKILLS</h3>
-          <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Java, PHP, Ruby, Python, C++, Go</li>
-            <li>MySQL, PostgreSQL</li>
-            <li>Microsoft Office</li>
-            <li>Photoshop, CorelDraw, Premiere, Sony Vegas</li>
-            <li>SEO, Analytics, Search Console</li>
-            <li>Writing</li>
-          </ul>
-        </div>
-        <hr/>
-        <div class='cv-education'>
-          <h3>EDUCATION</h3>
-          <div class='separate'>
-            <div class='cv-name'>Universitas Islam Negeri Sunan Ampel</div>
-            <div class='cv-place'>Surabaya, Indonesia</div>
-            <div class='cv-area'>Information Systems</div>
-            <div class='cv-year'>09/2015-08/2021</div>
-          </div>
-          <ul>
-            <li> GPA 3.30</li>
-            <li> Bachelor of Computer (S.Kom.)</li>
-            <li>Thesis &quot;Open-Source Forensic Applications Performance Analysis on Smartphone Android-Based in Collecting
-              Digital Evidence&quot;</li>
-          </ul>
-        </div>
-        <hr/>
-        <div class='cv-experience'>
-          <h3>EXPERIENCE</h3>
-          <div class='separate'>
-            <div class='cv-name'>PT Radio Merdeka Lokatama</div>
-            <div class='cv-place'>Surabaya, Indonesia</div>
-            <div class='cv-area'>IT Support (Intern)</div>
-            <div class='cv-year'>01/2020-02/2020</div>
-          </div>
-          <ul>
-            <li> Ensure network, hardware, and software have no problems.</li>
-            <li>Software quality review for development suggestions.</li>
-            <li>Make a broadcast script, including scripted ads for advertiser marketing.</li>
-          </ul>
-        </div>
-        <hr/>
-        <div class='cv-organization'>
-          <h3>ORGANIZATION</h3>
-          <div class='separate'>
-            <div class='cv-name'>Lembaga Pers Mahasiswa Riset</div>
-            <div class='cv-place'>Surabaya, Indonesia</div>
-            <div class='cv-area'>Editor-in-Chief</div>
-            <div class='cv-year'>09/2017-09/2018
+            <div class='certificate container'>
+                <h3>Certificate &amp; Training</h3>
+                <h4>2023:</h4>
+                <div class='list-per-year'>
+                    <p>Backend Development using Javascript</p>
+                    <p>Dicoding</p>
+                    <p>Cloud Practitioner Essentials</p>
+                    <p>Dicoding</p>
+                    <p>Backend Development using Go Programming</p>
+                    <p>Hacktiv8</p>
+                </div>
+                <h4>2022:</h4>
+                <div class='list-per-year'>
+                    <p>Big Data Associate</p>
+                    <p>Alibaba</p>
+                    <p>Automated Testing using Katalon Studio</p>
+                    <p>Hacktiv8</p>
+                    <p>Backend Development using Java</p>
+                    <p>Hacktiv8</p>
+                    <p>Scrum Master</p>
+                    <p>Rakamin Academy</p>
+                    <p>Full Stack Development</p>
+                    <p>Prograte</p>
+                </div>
+                <h4>2021:</h4>
+                <div class='list-per-year'>
+                    <p>Test of English as a Foreign Language</p>
+                    <p>P2B UINSA</p>
+                </div>
+                <h4>2018:</h4>
+                <div class='list-per-year'>
+                    <p>Microsoft Office 2010</p>
+                    <p>Multimatics</p>
+                </div>
+                <h4>2017:</h4>
+                <div class='list-per-year'>
+                    <p>Database Administration</p>
+                    <p>Inixindo</p>
+                </div>
+                <h4>2016:</h4>
+                <div class='list-per-year'>
+                    <p>Microsoft Office Specialist</p>
+                    <p>Certiport</p>
+                    <p>Test of Arabic as a Foreign Language</p>
+                    <p>P2B UINSA</p>
+                </div>
             </div>
-          </div>
-          <ul>
-            <li> Organize, supervise, and carry out every editorial activity.</li>
-            <li>Ensure editorial eligibility.
-            </li>
-          </ul>
-
-          <div class='separate'>
-            <div class='cv-name'>Himpunan Mahasiswa Program Studi Sistem Informasi</div>
-            <div class='cv-place'>Surabaya, Indonesia</div>
-            <div class='cv-area'>Secretary</div>
-            <div class='cv-year'>09/2017-09/2018
+            <div class='publication container'>
+                <h3>Publication</h3>
+                <h4>2022:</h4>
+                <div class='data-list'>
+                    <p>Forensik Digital: Forensik Perangkat Seluler</p>
+                    <p>Forensic Analysis using Autopsy to Get Deleted WhatsApp Data</p>
+                </div>
+                <h4>2021:</h4>
+                <div class='data-list'>
+                    <p>Analisis Kinerja Aplikasi Forensik Open-Source pada Ponsel Berbasis Android dalam Mendapatkan
+                        Bukti Digital</p>
+                </div>
             </div>
-          </div>
-          <ul>
-            <li> Assist the leader in organizing, supervising, and carrying out every planned activity.</li>
-            <li>Handling organizational administration.</li>
-            <li>Establish relationships with internal and external organizations.</li>
-          </ul>
-
-          <div class='separate'>
-            <div class='cv-name'>Pergerakan Mahasiswa Islam Indonesia</div>
-            <div class='cv-place'>Surabaya, Indonesia</div>
-            <div class='cv-area'>Member</div>
-            <div class='cv-year'>12/2015-05/2018
-            </div>
-          </div>
-          <ul>
-            <li> Organize, supervise, and carry out every planned activity.</li>
-            <li>Conduct studies related to current issues.</li>
-          </ul>
-
-          <div class='separate'>
-            <div class='cv-name'>Remaja Masjid Jami Darun Najah</div>
-            <div class='cv-place'>Gresik, Indonesia</div>
-            <div class='cv-area'>Secretary</div>
-            <div class='cv-year'>12/2011-06/2019</div>
-          </div>
-          <ul>
-            <li> Assist the leader in organizing, supervising, and carrying out every planned activity.</li>
-            <li>Handling organizational administration.</li>
-            <li>Establish relationships with internal and external organizations.</li>
-          </ul>
-
         </div>
-        <div class='klikin cv-digital' onclick='window.location.href=&apos;https://drive.google.com/uc?export=download&amp;id=15tfWxmEjmbjyV8hejekOHKla46hHILni&apos;'>Download Digital CV</div>
-      </div>
-    </div>
-  </div>
-
+    </section>
+    <!-- <footer id="footer">
+    </footer> -->
   <script>//<![CDATA[
-    var canvas=document.getElementById("canvas-hexagon"),can_w=parseInt(canvas.getAttribute("width")),can_h=parseInt(canvas.getAttribute("height")),ctx=canvas.getContext("2d"),BALL_NUM=0;BALL_NUM=can_w<480?20:75;var ball={x:0,y:0,vx:0,vy:0,r:0,alpha:1,phase:0},ball_color={r:200,g:255,b:255},R=2,balls=[],alpha_f=.03,alpha_phase=0,link_line_width=.8,dis_limit=260,add_mouse_point=!0,mouse_in=!1,mouse_ball={x:0,y:0,vx:0,vy:0,r:0,type:"mouse"};function getRandomSpeed(a){var e=-2;switch(a){case"top":return[randomNumFrom(e,6),randomNumFrom(.1,6)];case"right":return[randomNumFrom(e,-.1),randomNumFrom(e,6)];case"bottom":return[randomNumFrom(e,6),randomNumFrom(e,-.1)];case"left":return[randomNumFrom(.1,6),randomNumFrom(e,6)];default:return}}function randomArrayItem(a){return a[Math.floor(Math.random()*a.length)]}function randomNumFrom(a,e){return Math.random()*(e-a)+a}function getRandomBall(){switch(randomArrayItem(["top","right","bottom","left"])){case"top":return{x:randomSidePos(can_w),y:-R,vx:getRandomSpeed("top")[0],vy:getRandomSpeed("top")[1],r:R,alpha:1,phase:randomNumFrom(0,10)};case"right":return{x:can_w+R,y:randomSidePos(can_h),vx:getRandomSpeed("right")[0],vy:getRandomSpeed("right")[1],r:R,alpha:1,phase:randomNumFrom(0,10)};case"bottom":return{x:randomSidePos(can_w),y:can_h+R,vx:getRandomSpeed("bottom")[0],vy:getRandomSpeed("bottom")[1],r:R,alpha:1,phase:randomNumFrom(0,10)};case"left":return{x:-R,y:randomSidePos(can_h),vx:getRandomSpeed("left")[0],vy:getRandomSpeed("left")[1],r:R,alpha:1,phase:randomNumFrom(0,10)}}}function randomSidePos(a){return Math.ceil(Math.random()*a)}function renderBalls(){Array.prototype.forEach.call(balls,(function(a){a.hasOwnProperty("type")||(ctx.fillStyle="rgba("+ball_color.r+","+ball_color.g+","+ball_color.b+","+a.alpha+")",ctx.beginPath(),ctx.arc(a.x,a.y,R,0,2*Math.PI,!0),ctx.closePath(),ctx.fill())}))}function updateBalls(){var a=[];Array.prototype.forEach.call(balls,(function(e){e.x+=e.vx,e.y+=e.vy,e.x>-50&&e.x<can_w+50&&e.y>-50&&e.y<can_h+50&&a.push(e),e.phase+=alpha_f,e.alpha=Math.abs(Math.cos(e.phase))})),balls=a.slice(0)}function loopAlphaInf(){}function renderLines(){for(var a,e,t=0;t<balls.length;t++)for(var n=t+1;n<balls.length;n++)(a=getDisOf(balls[t],balls[n])/dis_limit)<1&&(e=(1-a).toString(),ctx.strokeStyle="rgba(150,150,150,"+e+")",ctx.lineWidth=link_line_width,ctx.beginPath(),ctx.moveTo(balls[t].x,balls[t].y),ctx.lineTo(balls[n].x,balls[n].y),ctx.stroke(),ctx.closePath())}function getDisOf(a,e){var t=Math.abs(a.x-e.x),n=Math.abs(a.y-e.y);return Math.sqrt(t*t+n*n)}function addBallIfy(){balls.length<BALL_NUM&&balls.push(getRandomBall())}function render(){ctx.clearRect(0,0,can_w,can_h),renderBalls(),renderLines(),updateBalls(),addBallIfy(),window.requestAnimationFrame(render)}function initBalls(a){for(var e=1;e<=a;e++)balls.push({x:randomSidePos(can_w),y:randomSidePos(can_h),vx:getRandomSpeed("top")[0],vy:getRandomSpeed("top")[1],r:R,alpha:1,phase:randomNumFrom(0,10)})}function initCanvas(){canvas.setAttribute("width",window.innerWidth),canvas.setAttribute("height",window.innerHeight),can_w=parseInt(canvas.getAttribute("width")),can_h=parseInt(canvas.getAttribute("height"))}function goMovie(){initCanvas(),initBalls(BALL_NUM),window.requestAnimationFrame(render)}console.log(randomNumFrom(0,10)),window.addEventListener("resize",(function(a){console.log("Window Resize..."),initCanvas()})),goMovie(),canvas.addEventListener("mouseenter",(function(){console.log("mouseenter"),mouse_in=!0,balls.push(mouse_ball)})),canvas.addEventListener("mouseleave",(function(){console.log("mouseleave"),mouse_in=!1;var a=[];Array.prototype.forEach.call(balls,(function(e){e.hasOwnProperty("type")||a.push(e)})),balls=a.slice(0)})),canvas.addEventListener("mousemove",(function(a){a=a||window.event;mouse_ball.x=a.pageX,mouse_ball.y=a.pageY}));
+  
+  // jQuery
+  $(function() {
+      $('.show-menu').click(function (event) {
+          event.stopPropagation();
+          event.stopImmediatePropagation();
+          $('.show').not('#show-' + $(this).attr('target')).hide();
+          $('#show-' + $(this).attr('target')).show();
+          $('.main').hide();
+      });
 
-    var c=document.getElementById("canvas-snow"),$=c.getContext("2d"),w=c.width=window.innerWidth,h=c.height=window.innerHeight;function Snowy(){for(var t,i=[],n=0;n<600;++n)(t=new a).y=Math.random()*(h+50),t.x=Math.random()*w,t.t=Math.random()*(2*Math.PI),t.sz=100/(10+100*Math.random())*1.3,t.sp=.15*Math.pow(.8*t.sz,2)*1,t.sp=t.sp<1?1:t.sp,i.push(t);function a(){this.draw=function(){this.g=$.createRadialGradient(this.x,this.y,0,this.x,this.y,this.sz),this.g.addColorStop(0,"hsla(255,255%,255%,1)"),this.g.addColorStop(1,"hsla(255,255%,255%,0)"),$.moveTo(this.x,this.y),$.fillStyle=this.g,$.beginPath(),$.arc(this.x,this.y,this.sz,0,2*Math.PI,!0),$.fill()}}!function t(){window.requestAnimationFrame(t),$.clearRect(0,0,w,h),$.fillStyle="hsla(242, 95%, 3%, 1)",$.fillRect(0,0,w,h),$.fill();for(var n=0;n<i.length;++n)f=i[n],f.t+=.05,f.t=f.t>=2*Math.PI?0:f.t,f.y+=f.sp,f.x+=Math.sin(1*f.t)*(.3*f.sz),f.y>h+50&&(f.y=-10-20*Math.random()),f.x>w+20&&(f.x=-20),f.x<-20&&(f.x=w+20),f.draw()}()}Snowy(),window.addEventListener("resize",(function(){c.width=w=window.innerWidth,c.height=h=window.innerHeight}),!1);
-    
-//]]>
-  </script>
-  &lt;!--
-</body>--&gt; &lt;/body&gt;
+      $('#header').click(function (event) {
+          event.stopPropagation();
+          event.stopImmediatePropagation();
+          $('.main').show();
+          $('.show').hide();
+          $('.curriculum-vitae').hide();
+      });
 
+      $("#reset-button").click(function(event) {
+          event.stopPropagation();
+          event.stopImmediatePropagation();
+      $("textarea").val("");
+          $(".whatsapp-preview").html("");
+    });
+
+      $('#whatsapp').on('keydown, keyup', function (event) {
+          event.stopPropagation();
+          event.stopImmediatePropagation();
+          var texInputValue = $('#whatsapp').val();
+          
+          texInputValue = texInputValue.replace(/\r\n|\r|\n/g,"<br/>")
+          $('.whatsapp-preview').html(texInputValue);
+      });
+      
+      var projectCount = $('.project-list').length;
+      if (projectCount < 3) {
+          $('.project-wrapper').css('justify-content', 'space-evenly');
+      }
+  });
+
+  // Pure JS
+  function getWhatsAppUrl() {
+      var whatsAppText = document.getElementById('whatsapp').value;
+  
+      whatsAppText = whatsAppText
+          .replace(/\r\n|\r|\n/g,"2%0A")
+          .replaceAll(/<b>|<\/b>/g,"*")
+          .replaceAll(/<i>|<\/i>/g,"_");
+
+      window.open('https://api.whatsapp.com/send?phone=628388886086&text=' + whatsAppText, '_blank');
+  }
+
+  //]]></script>
+&lt;!--</body>--&gt; &lt;/body&gt;
 </html>
