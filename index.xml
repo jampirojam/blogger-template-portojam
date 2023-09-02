@@ -343,7 +343,7 @@ li {
 }
 
 .container {
-    padding-bottom: 1em;
+    padding-bottom: 40px;
 }
 
 .profile-button {
@@ -423,7 +423,7 @@ li {
 }
 
 .section-desc p::before {
-    content: '• ';
+    content: '- ';
     padding-right: 15px;
     display: inline-flex;
 }
@@ -452,7 +452,7 @@ li {
 }
 
 .list-per-year p:nth-of-type(odd)::before {
-    content: '• ';
+    content: '- ';
     padding-right: 15px;
     display: inline-flex;
 }
@@ -479,7 +479,7 @@ li {
 }
 
 .data-list p::before {
-    content: '• ';
+    content: '- ';
     padding-right: 15px;
     display: inline-flex;
 }
@@ -909,7 +909,7 @@ li {
         <div class='logo'>
             <a class='logo-header click-in'>
                 <h1>OJ(</h1>
-                <img alt='logo' src='./assets/img/ojam.png'/>
+                <img alt='logo' src='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/img/ojam.png'/>
                 <h1>)M</h1>
             </a>
         </div>
@@ -993,7 +993,7 @@ li {
                 <div class='project-list'>
                     <h3>Operation Sharia Platform</h3>
                     <a class='project click-in'>
-                        <img alt='' src='./assets/img/bfi.png'/>
+                        <img alt='' src='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/img/bfi.png'/>
                         <div class='overlay'>
                             <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
                                 <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
@@ -1006,7 +1006,7 @@ li {
                 <div class='project-list'>
                     <h3>Surveyor Sharia Platform</h3>
                     <a class='project click-in'>
-                        <img alt='' src='./assets/img/bfi.png'/>
+                        <img alt='' src='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/img/bfi.png'/>
                         <div class='overlay'>
                             <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
                                 <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
@@ -1019,7 +1019,7 @@ li {
                 <div class='project-list'>
                     <h3>Operation Platform</h3>
                     <a class='project click-in'>
-                        <img alt='' src='./assets/img/bfi.png'/>
+                        <img alt='' src='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/img/bfi.png'/>
                         <div class='overlay'>
                             <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
                                 <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
@@ -1032,7 +1032,7 @@ li {
                 <div class='project-list'>
                     <h3>Surveyor Platform</h3>
                     <a class='project click-in'>
-                        <img alt='' src='./assets/img/bfi.png'/>
+                        <img alt='' src='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/img/bfi.png'/>
                         <div class='overlay'>
                             <svg fill='#FFF' height='50px' version='1.1' viewBox='0 0 32 32' width='50px' xmlns='http://www.w3.org/2000/svg'>
                                 <path d='M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z'>
@@ -1059,8 +1059,8 @@ li {
             </div>
             <div class='note-list'>
                 <p>Note:</p>
-                <p>Use &lt;b&gt;TEXT&lt;/b&gt; to make it bold</p>
-                <p>Use &lt;i&gt;TEXT&lt;/i&gt; to make it italic</p>
+                <p>Use b&gt;&gt;TEXT*&gt; to make it bold</p>
+                <p>Use i&gt;&gt;TEXT_&gt; to make it italic</p>
             </div>
             <input class='button' id='whatsapp-button' onclick='getWhatsAppUrl()' type='button' value='Send'/>
             <input class='button' id='reset-button' type='button' value='Reset'/>
@@ -1331,7 +1331,13 @@ li {
           event.stopImmediatePropagation();
           var texInputValue = $('#whatsapp').val();
           
-          texInputValue = texInputValue.replace(/\r\n|\r|\n/g,"<br/>")
+          texInputValue = texInputValue
+            .replace(/\r\n|\r|\n/g,"<br/>")
+            .replace(/b>>/g,"<b>")
+            .replace(/\*>/g,"</b>")
+            .replace(/i>>/g,"<i>")
+            .replace(/_>/g,"</i>");
+
           $('.whatsapp-preview').html(texInputValue);
       });
       
@@ -1346,9 +1352,11 @@ li {
       var whatsAppText = document.getElementById('whatsapp').value;
   
       whatsAppText = whatsAppText
-          .replace(/\r\n|\r|\n/g,"2%0A")
-          .replaceAll(/<b>|<\/b>/g,"*")
-          .replaceAll(/<i>|<\/i>/g,"_");
+          .replace(/\r\n|\r|\n/g,"%0A")
+          .replaceAll('b>>',"*")
+          .replaceAll('*>',"*")
+          .replaceAll('i>>',"_")
+          .replaceAll('_>',"_");
 
       window.open('https://api.whatsapp.com/send?phone=628388886086&text=' + whatsAppText, '_blank');
   }
