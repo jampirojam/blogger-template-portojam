@@ -62,11 +62,11 @@
     <b:if cond='data:blog.postImageThumbnailUrl'>
       <meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
       <b:else/>
-      <meta content='https://4.bp.blogspot.com/-_Ip-HYERms8/YG5vSuNS_uI/AAAAAAAAFu8/zZQoOZDfXyA8GMGMxvTNLfXT6RDaddKWgCLcBGAsYHQ/s0/Pos%2BTanpa%2BGambar.png' property='og:image'/>
+      <meta content='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/img/default-blank-image.png' property='og:image'/>
     </b:if>
   </b:if>
   <b:if cond='data:view.isMultipleItems'>
-    <meta content='https://4.bp.blogspot.com/-_Ip-HYERms8/YG5vSuNS_uI/AAAAAAAAFu8/zZQoOZDfXyA8GMGMxvTNLfXT6RDaddKWgCLcBGAsYHQ/s0/Pos%2BTanpa%2BGambar.png' name='twitter:image'/>
+    <meta content='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/img/default-blank-image.png' name='twitter:image'/>
     <b:else/>
     <meta expr:content='data:blog.postImageUrl' name='twitter:image'/>
   </b:if>
@@ -75,28 +75,28 @@
   </b:if>
 
   <!-- Meta PWA -->
-  <link href='https://4.bp.blogspot.com/-5uQgJY5J6AM/X_3rYsTmKaI/AAAAAAAAFgg/Abmh9x767WwsitQY9AcME2iatS4vgOOOACLcBGAsYHQ/s152/pwa%2B006.png' rel='icon'/>
-  <link href='https://cdn.jsdelivr.net/gh/jampirojam/PORTFOLIO@main/manifest.json' rel='manifest'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-152.png' rel='icon'/>
+  <link href='https://cdn.jsdelivr.net/gh/jampirojam/blogger-template-portojam@master/assets/pwa/manifest.json' rel='manifest'/>
   <!-- theme-color defines the top bar color (blue in my case)-->
   <meta content='#212121' name='theme-color'/>
 
   <!-- Add to home screen for Safari on iOS-->
   <meta content='yes' name='apple-mobile-web-app-capable'/>
   <meta content='default' name='apple-mobile-web-app-status-bar-style'/>
-  <meta content='BROJAMZ COM' name='apple-mobile-web-app-title'/>
-  <link href='https://4.bp.blogspot.com/-P1p8dTqOcEE/X_3rXY5z_5I/AAAAAAAAFgM/J0EiSFsvWhkiESC-_sX5zLzfQYXQqrvIgCLcBGAsYHQ/s72/pwa%2B001.png' rel='apple-touch-icon' sizes='72x72'/>
-  <link href='https://4.bp.blogspot.com/-J5LQHhlDBk8/X_3rXXIx9PI/AAAAAAAAFgQ/bW5BeLLmGnsfWD7f3FqitQcOk175RbOPgCLcBGAsYHQ/s96/pwa%2B002.png' rel='apple-touch-icon' sizes='96x96'/>
-  <link href='https://4.bp.blogspot.com/-nLJ6LNAGevE/X_3rXTIJZfI/AAAAAAAAFgU/LXHxpxOsxN0M-thccgWGkZhpwhBqKrjUwCLcBGAsYHQ/s120/pwa%2B003.png' rel='apple-touch-icon' sizes='120x120'/>
-  <link href='https://4.bp.blogspot.com/-WnZ4Gec3K3I/X_3rYU3dV_I/AAAAAAAAFgY/8_O0TH2goLIc3Y6GN2JyhKMOS_IwOzRlwCLcBGAsYHQ/s128/pwa%2B004.png' rel='apple-touch-icon' sizes='128x128'/>
-  <link href='https://4.bp.blogspot.com/-7wjaK5icb60/X_3rYkujWAI/AAAAAAAAFgc/_0PyU17JG4oTBrguIY0HVxsyv2xuV7wXwCLcBGAsYHQ/s144/pwa%2B005.png' rel='apple-touch-icon' sizes='144x144'/>
-  <link href='https://4.bp.blogspot.com/-5uQgJY5J6AM/X_3rYsTmKaI/AAAAAAAAFgg/Abmh9x767WwsitQY9AcME2iatS4vgOOOACLcBGAsYHQ/s152/pwa%2B006.png' rel='apple-touch-icon' sizes='152x152'/>
-  <link href='https://4.bp.blogspot.com/-KNSzvb6Fk8Y/X_3rZPiEO8I/AAAAAAAAFgk/RcfFpnYWxcYYQh8oYTg1KAQvQSrN5G3PACLcBGAsYHQ/s180/pwa%2B007.png' rel='apple-touch-icon' sizes='180x180'/>
-  <link href='https://4.bp.blogspot.com/-N9qREPbZ24s/X_3rZQ4wizI/AAAAAAAAFgo/SvZaIvX5YhkjON3B6k2K-6qkSc4YUx16QCLcBGAsYHQ/s192/pwa%2B008.png' rel='apple-touch-icon' sizes='192x192'/>
-  <link href='https://4.bp.blogspot.com/-WW7VI-YXLyU/X_3rZY5JXsI/AAAAAAAAFgs/UZh5gByNrt4Mdlw2-NBLc4x0PhJLbZ_NACLcBGAsYHQ/s384/pwa%2B009.png' rel='apple-touch-icon' sizes='384x384'/>
-  <link href='https://4.bp.blogspot.com/-eZQukJf1Gwg/X_3rZ56LK0I/AAAAAAAAFgw/c9Rhvsl6N6gnwbEfkjPrN2awWMdeMaxUwCLcBGAsYHQ/s512/pwa%2B010.png' rel='apple-touch-icon' sizes='512x512'/>
+  <meta content='OJAM' name='apple-mobile-web-app-title'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-72.png' rel='apple-touch-icon' sizes='72x72'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-96.png' rel='apple-touch-icon' sizes='96x96'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-120.png' rel='apple-touch-icon' sizes='120x120'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-128.png' rel='apple-touch-icon' sizes='128x128'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-144.png' rel='apple-touch-icon' sizes='144x144'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-152.png' rel='apple-touch-icon' sizes='152x152'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-180.png' rel='apple-touch-icon' sizes='180x180'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-192.png' rel='apple-touch-icon' sizes='192x192'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-384.png' rel='apple-touch-icon' sizes='384x384'/>
+  <link href='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-512.png' rel='apple-touch-icon' sizes='512x512'/>
 
   <!-- Add to home screen for Windows-->
-  <meta content='https://4.bp.blogspot.com/-5uQgJY5J6AM/X_3rYsTmKaI/AAAAAAAAFgg/Abmh9x767WwsitQY9AcME2iatS4vgOOOACLcBGAsYHQ/s152/pwa%2B006.png' name='msapplication-TileImage'/>
+  <meta content='https://raw.githubusercontent.com/jampirojam/blogger-template-portojam/master/assets/pwa/pwa-152.png' name='msapplication-TileImage'/>
   <meta content='#212121' name='msapplication-TileColor'/>
 
   <!-- Meta Description -->
@@ -118,7 +118,7 @@
   <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
 
   <!-- Site Owner -->
-  <meta content='M. Machrush Aliy Sirojjam Mushlich (BROJAMZ)' name='Author'/>
+  <meta content='M. Machrush Aliy Sirojjam Mushlich (OJAM)' name='Author'/>
   <link href='https://www.facebook.com/jampirojam' rel='me'/>
   <link href='https://www.facebook.com/jampirojam' rel='author'/>
   <link href='https://www.facebook.com/jampirojam' rel='publisher'/>
@@ -253,6 +253,17 @@ li {
 
 .click-in {
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.click-in:focus {
+    outline: none !important;
 }
 
 .button {
@@ -264,6 +275,24 @@ li {
 
 .break-point {
     padding-bottom: 2em;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
 }
 
 /* HEADER */
@@ -785,7 +814,7 @@ li {
 
     #whatsapp {
         width: 100%;
-        margin-left: -1px;
+        margin-left: -5px;
         min-height: 20vh;
         max-height: 40vh;
     }
