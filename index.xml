@@ -541,7 +541,7 @@ li {
 .whatsapp-wrapper div {
     width: 45%; 
     min-height: 20vh;
-    max-height: 50vh;
+    max-height: 40vh;
 }
 
 .whatsapp-preview-title {
@@ -553,7 +553,7 @@ li {
 #whatsapp {
     width: 50%;
     min-height: 20vh;
-    max-height: 50vh;
+    max-height: 40vh;
 }
 
 .scrollable {
@@ -816,14 +816,14 @@ li {
         width: 100%;
         margin-left: -5px;
         min-height: 20vh;
-        max-height: 40vh;
+        max-height: 30vh;
     }
 
     .whatsapp-wrapper div {
         width: 100%;
         padding-bottom: 20px;
         min-height: 20vh;
-        max-height: 40vh;
+        max-height: 30vh;
     }
 }
 
@@ -1018,7 +1018,7 @@ li {
         <div class='show' id='show-project' style='display: none;'>
             <h2>Projects</h2>
             <p class='project-intro'>Professional, not academic, career project lists.</p>
-            <div class='project-wrapper'>
+            <div class='project-wrapper container'>
                 <div class='project-list'>
                     <h3>Operation Sharia Platform</h3>
                     <a class='project click-in'>
